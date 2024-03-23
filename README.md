@@ -14,28 +14,30 @@
  
 #### The details of the parts and the functioning of parts 
 
-_connection of chip_
+**connection of chip**
 
 The chip is present at the middle and to connect the chip we  use something called as wire pounds.wire pounds help chip to connect with other parts. 
 
 
-_important things inside the chip_ 
+**important things inside the chip**
 
--PADS 
+1-*PADS* 
 
 PADS is somthing from which you can send the signals inside the chip 
 
--CORE 
+2-*CORE* 
 
 CORE is something where all our digital logic are placed 
 
--DIE 
+3-*DIE* 
 
 DIE is the size of the chip which is manufactured on the silicon 
 
 
-_Woking inside the chip_
-*hhdhhhhdhhhhhhd
+**Woking inside the chip**
+
+1.The tipical chip/core consist of RISCV SoC,SRAM,PILL,adc,adc1,dac,SPI
+2.The SRAM ,PILL,adc,adc1,dac are called as foundry IP's
 
 
 
