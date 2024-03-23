@@ -18,10 +18,20 @@ _connection of chip_
 
 The chip is present at the middle and to connect the chip we  use something called as wire pounds.wire pounds help chip to connect with other parts. 
 
+
 _important things inside the chip_ 
 
 -PADS 
-jssjs
+
+PADS is somthing from which you can send the signals inside the chip 
+
+-CORE 
+
+CORE is something where all our digital logic are placed 
+
+-DIE 
+
+DIE is the size of the chip which is manufactured on the silicon 
 
 
 
