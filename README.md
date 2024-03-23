@@ -62,4 +62,5 @@ DIE is the size of the chip which is manufactured on the silicon
 * we have to implement RISC-V specification to some RTC and then to the layot.
 * The apps enter our computer in this way :-
 APPS -> System Software -> Hardware/chip
+
 *types/parts of apps,system software,hardware
