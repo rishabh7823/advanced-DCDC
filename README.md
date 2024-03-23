@@ -45,7 +45,7 @@ DIE is the size of the chip which is manufactured on the silicon
 
 **Foundry IP's**
 
-1.wxample of Foundry IP's is Rath 150
+1.example of Foundry IP's is Rath 150
 
 2.Foundry is basically a set of machines/a big factery and we communicate with the factery as a VLSI engineer.
 
