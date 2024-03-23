@@ -64,4 +64,30 @@ DIE is the size of the chip which is manufactured on the silicon
 #### lets go more deep 
 * The apps enter our computer in this way :-
 APPS -> System Software -> Hardware/chip
-*types/parts of apps,system software,hardware
+* types/parts of apps,system software,hardware
+**app**-firefox,google and etc
+**system software**-OS,Compiler,Assembler
+  **hardware**-INTEL,Apple and etc
+
+  #### Work of OS
+  **MAjor work**-
+  * Converts the app into the assembly program
+    **Miner work** -
+    * low level system function
+    * handle IO operations
+    * Alocate memory
+
+#### Compiler 
+* converts the languages into instructions.
+* the instructios will be in chips format.
+
+#### Assembler 
+* It converts the instructions into the binary language.
+
+#### Abstract interface 
+* The instruction s act act like the abstract interface between the language and the hardware.
+* its also called as Instruction Set Architecture or Architecture of computer
+
+#### Understanding of hardware
+* The binary is sent to a RTL which will convert THE binary into gate level undertanding
+* It is passed to the hardware and then gets done by the chip
