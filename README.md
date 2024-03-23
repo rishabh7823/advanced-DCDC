@@ -60,7 +60,8 @@ DIE is the size of the chip which is manufactured on the silicon
 ### RISC-V Instruction Set Architecture {ISA}
 * If we want to transfer a C code to a computer/hardwar.Its first made to a assembly language program/RISC-V assembly language and to machine language program/binary program language then its passed to the layot.
 * we have to implement RISC-V specification to some RTC and then to the layot.
+
+#### lets go more deep 
 * The apps enter our computer in this way :-
 APPS -> System Software -> Hardware/chip
-
 *types/parts of apps,system software,hardware
