@@ -18,7 +18,10 @@ _connection of chip_
 
 The chip is present at the middle and to connect the chip we  use something called as wire pounds.wire pounds help chip to connect with other parts. 
 
-*jsjjddjjd
+_important things inside the chip_ 
+
+-PADS 
+jssjs
 
 
 
