@@ -58,4 +58,5 @@ DIE is the size of the chip which is manufactured on the silicon
 1.Macros are digital logic and needs IP's 
 
 ##### RISC-V Instruction Set Architecture {ISA}
-*If 
+* If we want to transfer a C code to a computer/hardwar.Its first made to a assembly language program/RISC-V assembly language and to machine language program/binary program language then its passed to the layot.
+* we have to implement RISC-V specification to some RTC and then to the layot. 
