@@ -69,7 +69,8 @@ APPS -> System Software -> Hardware/chip
 **system software**-OS,Compiler,Assembler
   **hardware**-INTEL,Apple and etc
 
-  #### Work of OS
+#### Work of OS
+
   **MAjor work**-
   * Converts the app into the assembly program
     
