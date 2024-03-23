@@ -34,6 +34,8 @@ CORE is something where all our digital logic are placed
 DIE is the size of the chip which is manufactured on the silicon 
 
 
+_Woking inside the chip_
+*hhdhhhhdhhhhhhd
 
 
 
