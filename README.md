@@ -13,7 +13,7 @@
 
 2-this is the board diagram of the proseccor
  
-#### The details of the parts and the functioning of parts 
+### The details of the parts and the functioning of parts 
 
 **connection of chip**
 
@@ -57,6 +57,6 @@ DIE is the size of the chip which is manufactured on the silicon
 
 1.Macros are digital logic and needs IP's 
 
-# RISC-V Instruction Set Architecture {ISA}
+### RISC-V Instruction Set Architecture {ISA}
 * If we want to transfer a C code to a computer/hardwar.Its first made to a assembly language program/RISC-V assembly language and to machine language program/binary program language then its passed to the layot.
 * we have to implement RISC-V specification to some RTC and then to the layot. 
