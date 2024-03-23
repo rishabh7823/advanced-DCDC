@@ -13,8 +13,10 @@
 2-this is the board diagram of the proseccor
  
 #### The details of the parts and the functioning of parts 
-_connection of chip_ 
+_connection of chip_
+
 The chip is present at the middle and to connect the chip we  use something called as wire pounds.wire pounds help chip to connect with other parts. 
+
 *jsjjddjjd
 
 
