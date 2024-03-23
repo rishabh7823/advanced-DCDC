@@ -72,6 +72,7 @@ APPS -> System Software -> Hardware/chip
   #### Work of OS
   **MAjor work**-
   * Converts the app into the assembly program
+    
     **Miner work** -
     * low level system function
     * handle IO operations
