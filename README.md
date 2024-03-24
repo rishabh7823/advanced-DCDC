@@ -15,12 +15,12 @@
  
 ### The details of the parts and the functioning of parts 
 
-**connection of chip**
+#### **connection of chip**
 
 The chip is present at the middle and to connect the chip we  use something called as wire pounds.wire pounds help chip to connect with other parts. 
 
 
-**important things inside the chip**
+#### **important things inside the chip**
 
 1-*PADS* 
 
@@ -35,7 +35,7 @@ CORE is something where all our digital logic are placed
 DIE is the size of the chip which is manufactured on the silicon 
 
 
-**Woking inside the chip**
+#### **Woking inside the chip**
 
 1.The tipical chip/core consist of RISCV SoC,SRAM,PILL,adc,adc1,dac,SPI
 
@@ -44,7 +44,7 @@ DIE is the size of the chip which is manufactured on the silicon
 3.The RISCV SoV and SPI are called Macros 
 
 
-**Foundry IP's**
+#### **Foundry IP's**
 
 1.example of Foundry IP's is Rath 150
 
@@ -53,7 +53,7 @@ DIE is the size of the chip which is manufactured on the silicon
 3.IP is bassically called intelligent property it means it needs some extra intelligens to build this.
 
 
-**Macros**
+#### **Macros**
 
 1.Macros are digital logic and needs IP's 
 
@@ -93,3 +93,6 @@ APPS -> System Software -> Hardware/chip
 #### Understanding of hardware
 * The binary is sent to a RTL which will convert the binary into gate level undertanding
 * It is passed to the hardware and then gets done by the chip
+
+### SoC Design Using Openlane
+hhhxhh
