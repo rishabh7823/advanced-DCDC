@@ -129,6 +129,18 @@ The properties needed for ASIC :-
 * Google singed a agreement with skywater to make a PDK of 13nm and it was lounched at june 30 2020 and was the first ever open source PDK.
 
 #### is 130nm old ?
-**you could get the answer by this pie chart** 
+*you could get the answer by this pie chart*
 
 <img width="438" alt="Screenshot 2024-03-24 125836" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e4f99bfd-4432-433c-b490-b306a950f578">
+
+#### Is 130nm fast?
+* Intel:P4EE@3.46GHz{Q4'O4}
+* OSU team reparted 327 MHz post-layot clock frequency for a single cycle RV32:CPU
+* Apipelined version xan achieve > 1GHz clock
+
+#### ASIC Design Flow 
+* ASIC Flow objective:RTL to GDSIL
+* Also called Automated PnR  and Physical Implementation
+
+#### RTL to GDSIL Flow 
+<img width="602" alt="Screenshot 2024-03-24 131046" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c2ce7a94-a1d7-4caf-8dbe-9c973a26b19a">
