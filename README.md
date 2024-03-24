@@ -91,5 +91,5 @@ APPS -> System Software -> Hardware/chip
 * its also called as Instruction Set Architecture or Architecture of computer
 
 #### Understanding of hardware
-* The binary is sent to a RTL which will convert THE binary into gate level undertanding
+* The binary is sent to a RTL which will convert the binary into gate level undertanding
 * It is passed to the hardware and then gets done by the chip
