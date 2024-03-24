@@ -71,7 +71,7 @@ APPS -> System Software -> Hardware/chip
 
 #### Work of OS
 
-  **MAjor work**-
+  **Major work**-
   * Converts the app into the assembly program
     
     **Miner work** -
