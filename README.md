@@ -97,5 +97,6 @@ APPS -> System Software -> Hardware/chip
 ### SoC Design Using Openlane
 **Lets start with ASIC**
 digital ASIC diagram:-
+
 <img width="336" alt="Screenshot 2024-03-24 122708" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/015eaaa9-db57-49ba-9ed8-d07805bfdded">
 
