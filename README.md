@@ -134,7 +134,7 @@ The properties needed for ASIC :-
 <img width="438" alt="Screenshot 2024-03-24 125836" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e4f99bfd-4432-433c-b490-b306a950f578">
 
 #### Is 130nm fast?
-* Intel:P4EE@3.46GHz{Q4'O4}
+* Intel:P4EE @ 3.46GHz{Q4'O4}
 * OSU team reparted 327 MHz post-layot clock frequency for a single cycle RV32:CPU
 * Apipelined version xan achieve > 1GHz clock
 
