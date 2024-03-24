@@ -124,3 +124,11 @@ The properties needed for ASIC :-
 * Device models
 * Digital stantard cell libraries
 * I/O libaries
+
+#### Formation of PDK
+* Google singed a agreement with skywater to make a PDK of 13nm and it was lounched at june 30 2020 and was the first ever open source PDK.
+
+#### is 130nm old ?
+you could get the answer by this pie chart 
+
+<img width="438" alt="Screenshot 2024-03-24 125836" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e4f99bfd-4432-433c-b490-b306a950f578">
