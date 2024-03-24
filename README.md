@@ -105,5 +105,22 @@ The properties needed for ASIC :-
 
 <img width="514" alt="Screenshot 2024-03-24 123120" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/24c8460e-7e8d-467c-be2b-c0f3f243744b">
 
-#### open sources 
+#### **open sources**  
+* RTL Design = Librecares.org
+               Opencores.org
+               Github.com
+* EDA Tools = Qflow
+              OpenRoad
+              OpenLone
+              {The cathods}
 
+#### What is a PDK?
+* PDK = the interface between the FAB and the design
+* PDK = Processer Designing Kit
+
+#### How it works 
+* Collection of files used to madel the EDA
+* Process design rules:DRC,LVS,PEX
+* Device models
+* Digital stantard cell libraries
+* I/O libaries
