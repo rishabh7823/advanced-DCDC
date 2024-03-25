@@ -142,5 +142,50 @@ The properties needed for ASIC :-
 * ASIC Flow objective:RTL to GDSIL
 * Also called Automated PnR  and Physical Implementation
 
-#### RTL to GDSIL Flow 
+### RTL to GDSIL Flow 
 <img width="602" alt="Screenshot 2024-03-24 131046" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c2ce7a94-a1d7-4caf-8dbe-9c973a26b19a">
+
+#### Synth 
+* Converts RTL to a circuit out of components from the stanserd cell library {SCL} 
+* Basically it converts the RTL into gate levels netes
+* 'Standard cells' have regular layouts
+* Each has different views
+-Electrical,HDL,SPICE
+-Layout
+
+#### FP+PP
+* It bassically means floring the chip
+* Chip floor - planning : partition the chip die between different system building blacks and place the I/O pads
+* Macro floor planning : we difine Dimensions,Pin location,raws definition
+* Power planning : The chip is pawered by VCC,VDD and they are conected to each other . they us uper metal layers hence have less resistance
+
+#### Place 
+* Place the cells on the floor plan rows,aligned with the sites are placed near to each other to low the resistance
+* usually done in 2 steps : Global,Detailed
+* Glogal teris to find optinal positions for all cells and the cells could overlap
+* Detailed are mininally alterd and the cells does not overlap
+
+#### Clock tree synthesis
+* create a clock distribution network
+* To deliver the clock to all sequention elements
+* with minimum skew
+* and in a good shape
+* usually a tree
+
+#### Routing
+* Implement the intarconnect using the available metal layer
+* The first one is made by titium and other are aluminium
+* metal tracks form a routing grid
+* Routing grid is huge
+* Divid and conque
+* Global Routing : Generates routing guides
+* Detailed Routing : Uses the routing guides to implement the actual wiring
+
+### Sign off 
+* Physical varifications
+- Design Rules Checing{DRS}
+- Layout vs Schematic {LVS}
+* Timing Verification
+- static timing analysis {STA}
+
+
