@@ -4,11 +4,15 @@
 <img width="406" alt="Screenshot 2024-03-23 121603" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/939d9f5e-9961-4974-8d35-13003d2ce4b7">
 “<img width="139" alt="Screenshot 2024-03-23 130930" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7fe8b449-5225-49c2-9f75-27b6a92284fe">
 
+                                                                                                                                                                    -VSD-IAT 
+
 
 1-This is how the processor looks like
 
 
 <img width="434" alt="Screenshot 2024-03-23 133754" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/fa7375cb-275e-4b8d-b9c8-5c657fe1a509">
+
+                                                                                                                                                                     -VSD-IAT
 
 
 2-this is the board diagram of the proseccor
@@ -137,6 +141,8 @@ The properties needed for ASIC :-
 
 <img width="438" alt="Screenshot 2024-03-24 125836" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e4f99bfd-4432-433c-b490-b306a950f578">
 
+                                                                                                                                                                     -VSD-IAT
+
 #### Is 130nm fast?
 * Intel:P4EE @ 3.46GHz{Q4'O4}
 * OSU team reparted 327 MHz post-layot clock frequency for a single cycle RV32:CPU
@@ -149,6 +155,7 @@ The properties needed for ASIC :-
 ### RTL to GDSIL Flow 
 <img width="602" alt="Screenshot 2024-03-24 131046" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c2ce7a94-a1d7-4caf-8dbe-9c973a26b19a">
 
+                                                                                                                                                                      VSD-IAT
 #### Synth 
 * Converts RTL to a circuit out of components from the stanserd cell library {SCL} 
 * Basically it converts the RTL into gate levels netes
