@@ -183,9 +183,13 @@ The properties needed for ASIC :-
 
 ### Sign off 
 * Physical varifications
+
   Design Rules Checing{DRS}
+  
   Layout vs Schematic {LVS}
+  
 * Timing Verification
+
   static timing analysis {STA}
 
 
