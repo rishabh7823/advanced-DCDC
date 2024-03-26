@@ -259,7 +259,7 @@ open soursues like : OpenROAD,Yosys,ABC,Fault
 
 <img width="94" alt="Screenshot 2024-03-26 091409" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ac2d334c-883e-4c64-8f3f-a9769598c8b5">
                                                                                                                                                                      
-            -VSD-IAT
+                                                                                                                        -VSD-IAT
 lets get started with this 👆
 
 * 1 - first it goes tthrew RTL Synthesis where the yoys converts it into circuits and ABC needs coupration while optimitation
