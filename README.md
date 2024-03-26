@@ -210,4 +210,48 @@ The properties needed for ASIC :-
 
   Opens PDK ,open ED,open RTL 
 * It has several families and benefits like :-
+  sTriVe:SKy 130SCL+Synthesized 1Kbytes SRAM
+  sTriVe2:SKy 130SCL+1Kbytes open RAM block
+  sTriVe2a:sTriVe 2 with a single chip core module
+  sTriVe 3: OSU SCL+Synthesized 1Kbytes SRAM
+  sTriVe5SKY130SCL+8x1Kbytes open RAM banks
+  sTriVe6:sTriVe2 with DFT
+
+### OpenLane ASIC flow 
+* Maain Goul: Produce a clean GDSIL with no human interaction
+  clean : No LVS violation
+  
+          No DRC violation
+  
+          No Timing violation {in progeres}
+* for example : SKy 130nm openPDK functions :-
+  
+  Functional out at the box
+  
+  Instructions tobuild and run natively will follow
+
+* Can be used to harden Macros and chips
+
+  harden to generate final layout
+
+* Two modes of operation
+  
+  Autonomous:figure out the flow
+  
+  Interactive:xan operate commands and steps one on one
+
+* Design space exploration
+  Find the best set of flow configuration
+  used to find sets block of figurations
+  
+  large number of design example
+  
+  43 design with their best configuration
+
+* actual openlane ASIC flow
+
+ <img width="590" alt="Screenshot 2024-03-26 090801" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/0fea7ae3-2e5c-4fe9-86df-4932b1525d6a">
+ 
+
+  
   
