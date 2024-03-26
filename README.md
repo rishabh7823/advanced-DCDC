@@ -306,3 +306,75 @@ lets get started with this 👆
   Routing :Global and Detailed
 
   This process is done by openROAD
+
+
+* 7 - Logic Equivalence Ckeck {LEC}
+  
+  the netlists modified,verification must be performed
+
+  CTS modifies the netlist
+
+  Past placement optimization modification the netlist
+
+  LEC is used to formally confirm that the function did not change after modifying the netlist
+
+  This process is done bt yosys
+
+* 8 - Dealing with Antenna Rules violations
+ 
+  when a metal wire segment is fabricated it can act as an antenna
+
+  reactive ion etchin causes chare to accumalate on the wire
+
+  transister gates can be damagged during fabrication
+
+  this is done in 2 steps :-
+                            1-Bridging attaches a higher layer intermadiary
+                             -require router awarness
+                             -like this
+
+  <img width="345" alt="Screenshot 2024-03-26 101127" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/30deb001-1732-4c6b-b82b-736acf245467">
+
+                                                                                                                                                                    -VSD-IAT 
+                            2- Add antenna diode cell to leak away charges
+                             - Antenna diodes are provided by the SCI
+                             - like this
+
+  <img width="121" alt="Screenshot 2024-03-26 101328" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9eb8c578-b905-4610-90f6-99ad571f8da1">
+
+                                                                                                                                                                    -VSD-IAT
+
+  We can take a few preventive approach
+
+  1 - Add a false antenna Diode next to every cell input after placement
+  
+  2 - Run the antenna checker {Magic} on the routed layout
+  
+  3 - If the checker reportsa violation on the cell input pin,replace the fake diode cell by a real once
+
+  4 - like this :-
+
+  <img width="233" alt="Screenshot 2024-03-26 101752" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/357884cd-5990-48d4-930d-cac070385593">
+
+                                                                                                                                                                    -VSD-IAT
+
+* 9 - Static timing Analysis
+* 
+  RC Extraction :DEF2SPEF
+  
+  STA: open STA {openROAD}
+
+  like this :-
+
+  <img width="311" alt="Screenshot 2024-03-26 102123" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/2b1af3d8-1128-4b41-9197-1c96dffc82ee">
+
+                                                                                                                                                                     -VSD-IAT
+
+* 10 - Physical Verification DRC&LVS
+
+  Maigic is used for Design Rules checking and SPICE Extraction from layout
+
+  Magic and Netgen are used for LVS
+
+  Extracted SPICE by Magic vs verilog netlist 
+  
