@@ -155,7 +155,7 @@ The properties needed for ASIC :-
 ### RTL to GDSIL Flow 
 <img width="602" alt="Screenshot 2024-03-24 131046" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c2ce7a94-a1d7-4caf-8dbe-9c973a26b19a">
 
-                                                                                                                                                                      VSD-IAT
+                                                                                                                                                                    -VSD-IAT
 #### Synth 
 * Converts RTL to a circuit out of components from the stanserd cell library {SCL} 
 * Basically it converts the RTL into gate levels netes
@@ -248,10 +248,61 @@ The properties needed for ASIC :-
   
   43 design with their best configuration
 
-* actual openlane ASIC flow
+### actual openlane ASIC flow
 
  <img width="590" alt="Screenshot 2024-03-26 090801" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/0fea7ae3-2e5c-4fe9-86df-4932b1525d6a">
- 
 
+                                                                                                                                                                    -VSD-IAT
+Openlane is based on several open sorsues 
+
+open soursues like : OpenROAD,Yosys,ABC,Fault 
+
+<img width="94" alt="Screenshot 2024-03-26 091409" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ac2d334c-883e-4c64-8f3f-a9769598c8b5">
+                                                                                                                                                                     
+                                                                                                                                                                     -VSD-IAT
+lets get started with this 👆
+
+* 1 - first it goes tthrew RTL Synthesis where the yoys converts it into circuits and ABC needs coupration while optimitation
+* 2 - STA it means Synthesis Startegy it targut the least area and perfect timing.Used to achive objects
+* 3 - Synthesis exploration is used to create a report that show the delay and area from this we can pic the best strategy to continue
+* 4 - Design Exploration also generates a report that shows different design mattries and no of violation generated after generating the final layout
   
+  The design exploration utility is also used for regression testing{CI}
   
+  We run openlane on-70 design and compare the results to the best known ones
+  
+* 5 - Design for test {DFT}. if we want to do testing after fabrication we can enable DFT.This is optional
+  
+  Scan Insertion
+  
+  Actomatic test pattern Generation{ATPG}
+  
+  Faut coverge
+  
+  Fault Simulation
+  
+  This processs is done by Fault
+  
+  like this :-
+
+  <img width="348" alt="Screenshot 2024-03-26 094723" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9758d111-f184-4534-9f1f-8e6b8f556677">
+
+                                                                                                                                                                     -VSD-IAT
+
+* 6 - Physical Implementation
+
+  Also called outomated PnR {Place and Route}
+
+  Floor/Power Planning
+
+  End decoupling capacitors and tap cells insections
+
+  Placement:Global and Detailed
+
+  Past placement optimitation
+
+  Clock Tree Synthesis {CTS}
+
+  Routing :Global and Detailed
+
+  This process is done by openROAD
