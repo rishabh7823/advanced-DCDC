@@ -329,19 +329,20 @@ lets get started with this 👆
   transister gates can be damagged during fabrication
 
   this is done in 2 steps :-
-                            1-Bridging attaches a higher layer intermadiary
-                             -require router awarness
-                             -like this
+  1-Bridging attaches a higher layer intermadiary
+  
+   -require router awarness
+  
+    -like this
 
   <img width="345" alt="Screenshot 2024-03-26 101127" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/30deb001-1732-4c6b-b82b-736acf245467">
 
                                                                                                                                                                     -VSD-IAT
 
 
-
-                           2- Add antenna diode cell to leak away charges
-                             - Antenna diodes are provided by the SCI
-                             - like this
+ 2- Add antenna diode cell to leak away charges
+  - Antenna diodes are provided by the SCI
+  - like this
 
   
 
