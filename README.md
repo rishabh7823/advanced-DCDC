@@ -192,7 +192,7 @@ The properties needed for ASIC :-
 * Global Routing : Generates routing guides
 * Detailed Routing : Uses the routing guides to implement the actual wiring
 
-### Sign off 
+#### Sign off 
 * Physical varifications
 
   Design Rules Checing{DRS}
@@ -204,3 +204,10 @@ The properties needed for ASIC :-
   static timing analysis {STA}
 
 
+### OpenLane
+* Started as an open source flow for a true open source tape-out Experiment
+* Strive is a family that opens everything in SoCS
+
+  Opens PDK ,open ED,open RTL 
+* It has several families and benefits like :-
+  
