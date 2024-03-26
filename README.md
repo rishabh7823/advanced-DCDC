@@ -335,10 +335,15 @@ lets get started with this 👆
 
   <img width="345" alt="Screenshot 2024-03-26 101127" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/30deb001-1732-4c6b-b82b-736acf245467">
 
-                                                                                                                                                                    -VSD-IAT 
-                            2- Add antenna diode cell to leak away charges
+                                                                                                                                                                    -VSD-IAT
+
+
+
+                           2- Add antenna diode cell to leak away charges
                              - Antenna diodes are provided by the SCI
                              - like this
+
+  
 
   <img width="121" alt="Screenshot 2024-03-26 101328" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9eb8c578-b905-4610-90f6-99ad571f8da1">
 
