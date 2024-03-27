@@ -221,9 +221,13 @@ The properties needed for ASIC :-
 * Maain Goul: Produce a clean GDSIL with no human interaction
   clean : No LVS violation
   
+  
           No DRC violation
   
+  
           No Timing violation {in progeres}
+  
+  
 * for example : SKy 130nm openPDK functions :-
   
   Functional out at the box
