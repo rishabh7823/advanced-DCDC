@@ -17,7 +17,7 @@
 
 2-this is the board diagram of the proseccor
  
-### The details of the parts and the functioning of parts 
+### The details of the parts and the functioning of parts  
 
 #### **connection of chip**
 
