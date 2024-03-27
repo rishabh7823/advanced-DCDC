@@ -457,7 +457,7 @@ lets get started with this 👆
   converted netlist look like :-
   
   
-   ![Screenshot 2024-03-27 231021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7f829c28-6bd3-4048-b0d9-196ed42c127c)   
+  ![Screenshot 2024-03-27 232637](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/135a7903-2912-4118-a02d-16065aab5aa9)
 
                                                                                                                                                                      -VSD-IAT
 
