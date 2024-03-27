@@ -456,7 +456,9 @@ lets get started with this 👆
 
   converted netlist look like :-
   
- ![Screenshot 2024-03-27 231021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7f829c28-6bd3-4048-b0d9-196ed42c127c)
+      ![Screenshot 2024-03-27 231021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7f829c28-6bd3-4048-b0d9-196ed42c127c)
+
+                                                                                                                                                                     -VSD-IAT
 
 
   * Final calculation
@@ -467,12 +469,16 @@ lets get started with this 👆
 
       ![Screenshot 2024-03-27 080439](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/05667121-0dce-4597-a168-f6e421d11502)
 
+                                                                                                                                                                    -VSD-IAT
+
 
     Then we have to bring them together to calculate there area.
 
     It would look like this:-
 
     ![Screenshot 2024-03-27 133021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bd8c407a-041e-4fee-8a2f-044922b88ad1)
+
+                                                                                                                                                                    -VSD-IAT
 
     now its area will be 4 square units
 
