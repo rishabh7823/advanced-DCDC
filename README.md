@@ -427,16 +427,65 @@ lets get started with this 👆
 
 ### Define width and hiegh of the core and die
 * Lets begin with a netlist
+  
   2 FF {Lounch and capture}
+  
   1 simple combinational loic inbetween
-* Netlist picture
+  
+* Netlist picture:- 
 
   ![Screenshot 2024-03-27 073410](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a5efa844-e004-4eb9-97b8-4a6a8272c9b8)
 
+                                                                                                                                                                     -VSD-IAT
+
+* Means by the picture
+  
+  FF = Floop/Latches/Registers
+
+  AI,OI = Standerd celld {And,OR,Not,etc}
+
+  Consider a netlist shown connections with above shown connection
+  
+  Note : A 'netlist' describs the connectivity of an electronic design
+
+* Converting into dimention
+
+  While defining the dimentions we are mostly dependent on the logic gates,also dimentions of OR and AND gate
+
+  Lets give the gates a perfect lenth and convert it into a physical dimensical
+
+  converted netlist look like :-
+  
+ ![Screenshot 2024-03-27 231021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7f829c28-6bd3-4048-b0d9-196ed42c127c)
 
 
+  * Final calculation
+ 
+    Lets give a perfect/perticular lenth,width for both
+
+    It would look like this:-
+
+      ![Screenshot 2024-03-27 080439](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/05667121-0dce-4597-a168-f6e421d11502)
 
 
+    Then we have to bring them together to calculate there area.
 
+    It would look like this:-
 
+    ![Screenshot 2024-03-27 133021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bd8c407a-041e-4fee-8a2f-044922b88ad1)
 
+    now its area will be 4 square units
+
+* first waht is 'core' and 'die' ?
+  
+  In the section of die we can find the core. core where the logic gates are present. die is a semiconductor metirial where the circuits are present. The circuit will not exid the die.
+  
+* How to arrive on its dimensions ?
+  
+  place the logic gates in core
+
+  it ocupies full area
+
+  we have utilized it,it has covered 100% of core so it called as 100% utilization
+
+  
