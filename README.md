@@ -407,8 +407,8 @@ lets get started with this 👆
 
 
 
+<img width="180" alt="Screenshot 2024-03-26 152245" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/28e8d8a4-458d-4cee-aa4a-a003c690a80f">
 
-<img width="504" alt="Screenshot 2024-03-26 151720" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/aedbc837-462b-4ab7-891d-d9cb2b7f5cf4">
 
 
 
@@ -423,7 +423,8 @@ lets get started with this 👆
 
 
 
-<img width="180" alt="Screenshot 2024-03-26 152245" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/28e8d8a4-458d-4cee-aa4a-a003c690a80f">
+<img width="504" alt="Screenshot 2024-03-26 151720" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/aedbc837-462b-4ab7-891d-d9cb2b7f5cf4">
+
 
 
 
