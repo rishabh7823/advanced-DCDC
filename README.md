@@ -423,7 +423,16 @@ lets get started with this 👆
 
 
 
-<img width="504" alt="Screenshot 2024-03-26 151720" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/aedbc837-462b-4ab7-891d-d9cb2b7f5cf4">
+## Day 2
+
+### Define width and hiegh of the core and die
+* Lets begin with a netlist
+  2 FF {Lounch and capture}
+  1 simple combinational loic inbetween
+* Netlist picture
+
+  ![Screenshot 2024-03-27 073410](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a5efa844-e004-4eb9-97b8-4a6a8272c9b8)
+
 
 
 
