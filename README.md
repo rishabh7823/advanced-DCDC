@@ -1084,4 +1084,112 @@ called P-substrate
 
 
 
-* 
+* Formation of "gate"
+
+  for creating douping concentration in PMOS
+
+  ![Screenshot 2024-03-28 200626](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/de76fc05-731f-4902-8c70-1eadc2e4556a)
+
+
+
+  for creating douping concentration in NMOS
+
+  ![Screenshot 2024-03-28 200838](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bc095e15-e7da-4210-9f38-84e0d289a690)
+
+
+
+  As the oxide is damaged originally, so the oxide is etched usin dilute hydroflouric acid{HF}
+
+![Screenshot 2024-03-28 202240](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/68ecab63-006d-4f79-a58d-d1598db56fee)
+
+
+
+Then regrow it again {10n thin}to put in the gates,first we put many layers
+
+<img width="431" alt="h" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1f296214-b6c9-4859-b956-f45d77bf448e">
+
+
+
+by UV light the layers are eched away
+
+![Screenshot 2024-03-28 203325](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/5b33ace0-4874-4565-9da1-4a00830130e8)
+
+
+
+In the last this is the gate we get
+
+![Screenshot 2024-03-28 203401](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/536d63f7-68f5-4c60-8d56-f38fa6a43f60)
+
+
+
+* Lihtly Doped Drain{LDD} formation
+
+  while fabricating in NMOS in P-well, we get source and drain and they both are P type, which is P+
+
+  P-  is the LDD
+
+  N is N well
+
+  So we have 3types of doping for NMOS - P+, P-, N
+
+  Here source and drain are N
+
+  N- is LDD
+
+  P is P-well
+
+  So we have 3 types of doping for PMOS - N+,N-, P
+
+  * Why we need these all
+
+    there are 2 reasons for this
+
+    Hot electron effect
+
+    Short channel effect
+
+  * Hot Electronic effect
+ 
+    electronic fold  E=V/d
+
+    High Energy carriers break si-si bonds
+
+    3.2.v barrier between Si conduction band
+
+    SiO2 conduction band
+
+* Short channel effe
+  For short channel, drain field penetrates as channel
+
+* process for implant
+
+  ![Screenshot 2024-03-28 210634](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/d8451a4c-0de5-4895-90ca-8e42d58f907e)
+
+
+  👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
+
+  ![image](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1eb940e5-99c8-4e8d-a096-40c1c8b45475)
+
+
+ 
+  To protect the implemented N,P we use SiO2. Then Plasma anisotropic etches it. some side wall spaces are created protects.
+
+* Source and drain formatio
+
+  To make N+ in P-wall
+
+  ![Screenshot 2024-03-28 211005](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ca0f34d4-09cb-4e8b-bb04-7588c4b5617d)
+
+
+
+  To Make P+ in N-wall
+ 
+  <img width="417" alt="p1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a5b0078f-1619-4381-af16-f2b84589c5d8">
+
+
+
+  then in high temperature
+
+![Screenshot 2024-03-28 211615](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/85209953-9143-439d-84c5-8674a226fcfe)
+
+  
