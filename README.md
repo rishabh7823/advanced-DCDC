@@ -1027,4 +1027,61 @@ called P-substrate
   ![Screenshot 2024-03-28 194206](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ef292f21-1ecc-4f5c-8873-42d27fe6e2c0)
 
   
- 
+
+ poto washed away
+
+ <img width="494" alt="e" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/be97bdb1-c7ad-45bd-af75-429f25aa8145">
+
+
+
+ chemically removed
+
+ ![Screenshot 2024-03-28 194810](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/888e6b08-4681-46c4-928e-b6014ed6260d)
+
+
+
+ Bird's breack
+
+ <img width="593" alt="r" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/d7626e44-074b-4e61-8cf2-63f8f85b1ea4">
+
+
+
+* N-well and P-well formation
+
+  Mask look like
+
+  <img width="600" alt="l" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6b087dc3-d57d-492a-b455-67fa69d781e7">
+
+
+
+  Layers
+
+  ![Screenshot 2024-03-28 195258](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/da375175-bb75-4cee-a1cb-42603e97df4c)
+
+
+
+  then implement P-MOS like this
+
+  ![Screenshot 2024-03-28 195538](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/208789ea-1232-4495-9c92-10bfb673d840)
+
+
+
+  then implement N-MOS like this
+
+  ![Screenshot 2024-03-28 195731](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/178694c4-ac82-4d30-8421-c3f3845546b9)
+
+
+
+  In the last we can see this
+
+  ![Screenshot 2024-03-28 200626](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9e07e02d-9aa9-4234-9d29-3bda8ef999f9)
+
+
+
+  to expand P,N MOSS we put it in high temperature
+
+  <img width="475" alt="k" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/248e764e-727a-4b76-a37a-4bd8b004f5cc">
+
+
+
+* 
