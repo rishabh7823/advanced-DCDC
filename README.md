@@ -850,6 +850,7 @@ If its 20% and others 80%
 
 ## pictures while doing labs :-
 
+![Screenshot 2024-03-27 181027](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/756fac84-9b2e-4eeb-973a-cfd54655589a)
 
 
 <img width="311" alt="Screenshot 2024-03-26 102123" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ba2f3024-c01b-4cd2-bf45-6fc9d55f43c2">
