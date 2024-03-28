@@ -730,3 +730,43 @@ seperate and use
 * then to CTS where the 'clock reches all signals at same time 'is taken care
 * Routing is basicaly deparing
 * STA where the Arrival and etc are calculated 
+
+
+## Cell design flow
+* It is divided in three points
+* Input,Design steps ,outputs
+* input - proces design kits {PDKs}:DRC & LVS rules,SPICE models,library & users-defined spes
+  
+          DRC & LVC = rules in tech file
+  
+          SPICE = VTO,Y,Kn1,lamda
+  
+          Library & user -defined spes = cell height,supply voltage,metal layer ,pin location ,drown gate length
+
+* Design steps = circuit design,layout design,charactization
+* circuit design = PMOS,NMOS
+  
+  layout design = graphing a diagram by collours
+  
+* out puts = CDL,GDSIL,LEF,extracted spice netlist
+
+  <img width="209" alt="imp2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/11ff4d5a-112d-4c71-b062-a061730439d8">
+
+
+
+## Characterization
+* read in the models
+* read extracted files
+* see the behavior of beffer
+* read the sub of inverter
+* atach pawer sorces
+* apley stimless
+* provide output capasitence
+* read tran simulation
+
+  1 to 8 is called GUNA
+  this will generate timing,noise,pawer,libs,function
+  it is divided in three parts :-
+   t1ming charactization
+   pawer charactization
+   noise charactization
