@@ -724,4 +724,9 @@ seperate and use
 
 
 ## library characteration and modelling
-* can ve
+* can veeting the synthesis into ligel hardware is called logic synthesis and the RTL
+* we import the logic synthesis output in and dicide the L/W of core and die which dependent on the gate
+* the floor plannning's things are passed to placement where the timing is taked care of
+* then to CTS where the 'clock reches all signals at same time 'is taken care
+* Routing is basicaly deparing
+* STA where the Arrival and etc are calculated 
