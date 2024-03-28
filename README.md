@@ -850,5 +850,24 @@ If its 20% and others 80%
 
 ## pictures while doing labs :-
 
-![Screenshot 2024-03-27 161615](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/2acf978b-4094-41ad-8189-ccb91d29dcbf)
+<img width="167" alt="doing 2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/aad500f3-4ae7-4aaa-aaed-863d64dd68e2">
 
+<img width="311" alt="Screenshot 2024-03-26 102123" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ba2f3024-c01b-4cd2-bf45-6fc9d55f43c2">
+
+<img width="287" alt="Screenshot 2024-03-26 130232" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/b0cd2ba0-de56-41f0-9a20-dd53f189cc6a">
+
+<img width="504" alt="Screenshot 2024-03-26 151720" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/fb2c8bdc-c1c3-4801-b65e-81610dc98b28">
+
+<img width="287" alt="Screenshot 2024-03-26 151732" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bcc37ead-1b86-45ea-b9ed-6c876a4fa67a">
+
+<img width="950" alt="Screenshot 2024-03-26 151959" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/2bb4cb87-04dd-4ba9-b8a1-77592b73e47b">
+
+<img width="180" alt="Screenshot 2024-03-26 152245" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/4237569f-cfb8-4675-8366-9a6350373c54">
+
+![Screenshot 2024-03-27 161615](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9f90d9be-89c1-4154-9ec5-78fc87bde934)
+
+![Screenshot 2024-03-27 161631](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a98531d5-eada-49b0-9430-bddf5761ea92)
+
+![Screenshot 2024-03-27 161732](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/02509500-217f-4765-8745-9e9212d5e10f)
+
+                                                                                                                                                                  -All by me
