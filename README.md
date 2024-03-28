@@ -651,3 +651,25 @@ seperate and use
   ![Screenshot 2024-03-27 155044](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/947b8059-7842-406a-9d6f-b13abc68327e)
 
 
+
+ ### Implementation
+ * we have 2 sets of circuit of some. It haas FF1,FF21,2{gates},input1,clock1,output1
+ * it will look like this :-
+
+   <img width="410" alt="Screenshot 2024-03-27 153222" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c4f8b6e8-65a1-4f85-b06a-740e1d4a5fa3">
+
+
+
+* another of same circuit it has FF1,FF2,1,2{gates} CLOCK1,CLOCK2,OUTPUT,INPUT
+* it will look like this
+
+  <img width="409" alt="Screenshot 2024-03-27 153314" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1a887cff-bc5f-4242-b121-ab4d653c8167">
+
+
+
+* Then inplement it in the die
+* it wil look like this
+
+  <img width="422" alt="Screenshot 2024-03-27 154519" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/3533dd39-bdfc-474d-8235-e9ec6737cbbf">
+
+
