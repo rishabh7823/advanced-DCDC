@@ -673,3 +673,55 @@ seperate and use
   <img width="422" alt="Screenshot 2024-03-27 154519" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/3533dd39-bdfc-474d-8235-e9ec6737cbbf">
 
 
+
+### No placement automatically 
+* to prevent auttomatic placement we put a layer around the die
+* looks like this.
+
+  ![Screenshot 2024-03-27 155044](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ad3e3187-212b-43d4-879e-c538ad4b1992)
+
+
+
+## Plcement & routing
+* Bind netlist with physical cells
+  
+  The all gates are in sqare shape only
+  
+  where we can find all cells near thats the is liberary
+
+  ![Screenshot 2024-03-27 165133](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ebed39fd-1999-401b-a7d7-f44d6402f744)
+
+
+
+  There are 2 types of library
+  
+  1-consist of all shapes and size
+  
+  2-it consist information
+
+  it has many sizes
+
+  <img width="578" alt="imp" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/482fe830-1e06-4d63-83c1-fd94ce77eb3f">
+
+
+
+  as big size that less resistance
+
+
+## Plcement 
+* placing all three together:
+
+  <img width="602" alt="imp 1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/f9075784-9c83-460b-8839-d931fe950b14">
+
+
+
+* placing netist in floor plan
+* This is the stage where we as time's wire lengh and dcapacitance and based on that , insert repeaters
+* like thiss:
+
+   ![Screenshot 2024-03-27 175259](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/84ba0444-2dc8-4274-9e8a-bf7d72141011)
+
+
+
+## library characteration and modelling
+* can ve
