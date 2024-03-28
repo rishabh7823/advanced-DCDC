@@ -1,6 +1,6 @@
 # advanced-DCDC
 ## Day 1 
-### processor/chip 
+## processor/chip 
 <img width="406" alt="Screenshot 2024-03-23 121603" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/939d9f5e-9961-4974-8d35-13003d2ce4b7">
 “<img width="139" alt="Screenshot 2024-03-23 130930" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7fe8b449-5225-49c2-9f75-27b6a92284fe">
 
@@ -425,7 +425,7 @@ lets get started with this 👆
 
 ## Day 2
 
-### Define width and hiegh of the core and die
+## Define width and hiegh of the core and die
 * Lets begin with a netlist
   
   2 FF {Lounch and capture}
@@ -495,4 +495,67 @@ lets get started with this 👆
 
   we have utilized it,it has covered 100% of core so it called as 100% utilization
 
+  Utilization factor = {Area occupied ny netlist}
   
+                        ------------------------
+  
+                        {total area of the core}
+  
+  Area of netlist :-
+
+  ![Screenshot 2024-03-27 133021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c1b3b91a-396f-45e3-8848-6f1a5a1cfed9)
+
+                                                                                                                                                                     -VSD-IAT
+  
+Area of the core :-
+
+![Screenshot 2024-03-27 134914](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/89ac1824-79d4-4c92-bb06-3a7e37aa982c)
+
+                                                                                                                                                                    -VSD-IAT
+
+now utilizatio factor = 4x1/2/2                                                                            
+                      =4/4sq
+                      =1
+
+The utilization Factor is 1.it means it is fully ytilized{100%}
+
+Aspect Ratio = Height / witdh
+             =2/2 unit
+             =1
+
+Aspect ratio is 1 
+
+if aspect ratio is 1 then it means it is sqare and if it is any other number is it rectangle 
+
+
+### calculating by an eg - 1
+* If we have 2Hnad W logic factor and 2H and 4W core
+* like this :-
+  ![Screenshot 2024-03-27 133021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e66617df-8feb-4cb3-bf4b-3b7df3944ede)
+
+                                                                                                                                                                    -VSD-IAT                  
+
+<img width="508" alt="Screenshot 2024-03-27 134338" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ddef44de-0153-4c4f-9c8f-351cada71c28">
+
+                                                                                                                                                                   -VSD-IAT   
+
+utilization factor =0.5 
+aspect ratio =0.5
+
+
+### Calculating by an eg -2 
+* If we have 2H and 2W logic factor {same} and 4H and 4W core
+* it will look like this :-
+
+  ![Screenshot 2024-03-27 133021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ff683fca-ad74-4c5e-80ca-b23864f1e50b)
+
+                                                                                                                                                                    -VSD-IAT            
+
+![Screenshot 2024-03-27 134914](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/55652b08-23c0-474b-8e7d-c6e07dfc1069)
+
+                                                                                                                                                                    -VSD-IAT 
+                                                                                                                                                                   
+ utilization factor = 0.25
+ aspect ratio = 1
+ 
+                                                                                                                                                                    
