@@ -910,4 +910,121 @@ If its 20% and others 80%
 
 
 
-* *** hj kiu u3t ***
+* *** Model Description ***
+* *** Netlist Description ***
+
+  M1 out in vdd pmos W=0.375U
+  
+                     L=0.25U
+
+  M2 out in 00 nmos W=0.375U
+
+                    L=0.25U
+
+  Cloud out 0 10f
+
+  Vdd vdd 02.5
+
+  Vin in 02.5
+
+
+* Simulation Commands
+ 
+    .op
+
+    .dc vin 02.5  0.05
+
+
+* *** include tsmc_025um_modes1.mod***
+ 
+    LTB -"tsmc_025um_modes1.mod"
+
+    CMOS_MODEIS.end
+
+
+* eg - 1 = SPICE waveform : Wn - Wp=0.375u,Ln,p=0.25u device (Wn/Ln=Wp/Lp=1.5)
+ 
+    ![Screenshot 2024-03-28 171031](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9011f0ab-798c-4b12-97a9-56bd1128c992)
+
+
+
+* eg - 2 =   SPICE waveform : Wn=0.375,Wp=0.9375u,Ln,p=0.25u device (Wn/Ln=1.5,Wp/Lp=2.5)
+
+  ![Screenshot 2024-03-28 171320](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/14a5abba-a6e9-4c6d-9ffd-8a876024295a)
+
+
+  
+* Difference between eg1 and eg2
+
+   we can see that eg1 is little to left and eg2 is middle
+
+   this show that the CMOS is Robustness
+  
+   Static behaviour evaluation : CMOS invertor Robustness, Switching threshold,Vm
+
+   Switching threshold is the point switches
+
+   Vm is a point where Vin=Vout
+
+  eg 1 =
+
+  ![Screenshot 2024-03-28 224645](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/3fe8cd74-a109-4cc0-addc-71f5a32f1540)
+
+
+    
+ eg 2 = 
+
+ <img width="261" alt="eg 1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c782984f-ac94-439c-b0f1-3872b831c798">
+
+
+
+ Vm = 
+
+ <img width="535" alt="all" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/4a6e05f8-1562-48f4-b1b5-da1b2a597681">
+
+
+
+ Then in eg1 vgs = vds 
+
+ ![Screenshot 2024-03-28 175340](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9731518f-90e8-4133-b914-a8156a2444bd)
+
+
+
+ equations:
+
+ Vm=R.Vdd/(1+R)
+
+ R=KbVdsatp/KnVdsatn = (w/p)Kp1.Vdsatp/(Wn/Ln)Kn1.Vdsatp
+
+                   Kn.Vdsatn(Vm-Vt)-Vdsatn/2
+(Wp/Lp)/(Wn/Ln) = ________________________________
+                   Kbl.Vdsatb(-Vm+Vdd+Vt)+VdsatB/2
+
+eg.1 rise and fall in waveform
+
+![Screenshot 2024-03-28 172902](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bbba624c-5be7-4c0a-ac9f-cff78f0fb41c)
+
+
+
+## 16-mask CMOS process
+* selecting a substrate
+
+  will take a normal block
+
+  ![Screenshot 2024-03-28 193231](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/68c2ceb3-d415-4fb4-97a2-bf52bd08b0da)
+
+
+
+called P-substrate
+* Creating a active region for transistors
+
+  Create isolation between all substrate
+
+  Mask1 is the layout
+
+  with layers
+
+  ![Screenshot 2024-03-28 194206](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ef292f21-1ecc-4f5c-8873-42d27fe6e2c0)
+
+  
+ 
