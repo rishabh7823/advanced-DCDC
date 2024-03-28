@@ -770,3 +770,76 @@ seperate and use
    t1ming charactization
    pawer charactization
    noise charactization
+
+## Timing charactization
+* timing threehold definitions
+
+  <img width="233" alt="mp 4" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7cf1e8cc-e3f5-4459-a74b-5239c0973f14">
+
+
+
+* clculation
+
+  <img width="444" alt="p1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bc49cda9-1acc-42b1-be0b-a798637b0c1c">
+
+
+
+<img width="446" alt="p2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/b58fcfd9-8b9f-454c-9d81-313ae03f06a1">
+
+
+
+<img width="463" alt="p3" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/729573a4-a16a-4261-bf60-375c69e55cd0">
+
+
+
+<img width="442" alt="p4" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/55fd137c-d2f1-4185-9333-8d68b37242fb">
+
+
+
+<img width="425" alt="p5" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9409a984-70d7-451a-bdf3-f8726fe13fdc">
+
+
+
+<img width="446" alt="p6" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/54266327-4964-44ed-94c2-cdb71a6a8854">
+
+
+
+<img width="464" alt="p7" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/2d3faba8-9cbc-4d07-bd68-90d785af375a">
+
+
+
+<img width="451" alt="p8" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e0267e8c-69b4-4117-8f41-a907b7aa058a">
+
+
+
+## Propogation delay
+* Equation 
+
+<img width="401" alt="e1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/3b5f8be5-327b-4447-9984-e5c5ca049626">
+
+
+
+* If it is 50%
+
+  eg - 1
+
+  <img width="523" alt="s1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/0ccfe961-edfe-4fce-b14c-a72979162e41">
+
+
+
+eg - 2
+
+<img width="535" alt="s2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/2b4503ff-7cb0-47e3-9dc7-0880ecff3be2">
+
+
+
+## Timing characterzation
+* Transition time
+
+  Eqation
+
+  <img width="425" alt="e2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bbed33ea-97b6-407a-942c-1cad06789bad">
+
+
+
+If its 20% and others 80% 
