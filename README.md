@@ -529,7 +529,7 @@ if aspect ratio is 1 then it means it is sqare and if it is any other number is 
 
 
 ### calculating by an eg - 1
-* If we have 2Hnad W logic factor and 2H and 4W core
+* If we have 2H and 4W logic factor and 2H and 4W core
 * like this :-
   
   ![Screenshot 2024-03-27 133021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e66617df-8feb-4cb3-bf4b-3b7df3944ede)
