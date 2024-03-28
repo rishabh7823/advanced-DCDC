@@ -420,7 +420,7 @@ lets get started with this 👆
 
 <img width="950" alt="Screenshot 2024-03-26 151959" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/d433d415-5bdb-4aab-ad35-782c29037f0d">
 
-
+                                                                                                                                                                   -all by me
 
 
 ## Day 2
@@ -586,24 +586,26 @@ aspect ratio =0.5
  Extand I/O pins 
 
  ![Screenshot 2024-03-27 140452](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/da511d77-5507-48ce-992d-ad2a3f2333ce)
- 
-                                                                                                                                                                     
+                                                                                                                                                          
+                                                                                                                                                                    -VSD-IAT                                                                                                                                                                                                                                                                                                                
 Exttend I/O pins
 
 
 -![Screenshot 2024-03-27 140643](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e2b2f7b3-4330-4f6a-b580-4a12fba0a505)
 
+                                                                                                                                                                    -VSD-IAT                       
 
 make it black box
 
 ![Screenshot 2024-03-27 140609](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/64ed230d-b0b5-4013-9feb-505155213dad)
-
+                                                                            
+                                                                                                                                                                     -VSD-IAT
 
 seperate and use                                                                                                                                                                     
 
 ![Screenshot 2024-03-27 140643](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/707002d8-04a8-4256-9394-79ca34333cc1)
 
-
+                                                                                                                                                                    -VSD-IAT
 
 ### Its uses and information
 * They can be used seperately ,anyware
@@ -611,7 +613,7 @@ seperate and use
 
   ![Screenshot 2024-03-27 140920](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bd3483e0-fafc-48c0-b459-1c241f0e7c59)
 
-
+                                                                                                                                                                    -VSD-IAT
 
 * These are pre placed cells because they are placed only ones
 * The arrangment of these chip is called floor planning
@@ -627,7 +629,7 @@ seperate and use
 
   ![Screenshot 2024-03-27 142149](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7d1e2e61-6dbd-4f8b-9e05-bd5df618971a)
 
-
+                                                                                                                                                                     -VSD-IAT
 
 ### Decapers 
 * Some times if the circuits are for the resistance could be high
@@ -635,7 +637,7 @@ seperate and use
 
   ![Screenshot 2024-03-27 143136](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6a0e0288-878e-4154-8b2f-9aaeb2b80773)
 
-
+                                                                                                                                                                     -VSD-IAT
                                                                                                                                                
 * to reduse the resistance we use Decapers
 * the decapers are also present in power planning
@@ -643,7 +645,7 @@ seperate and use
 
   ![Screenshot 2024-03-27 143449](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/2f361fd5-f106-4633-8342-cd364a0bbd4d)
 
-
+                                                                                                                                                                     -VSD-IAT
 
 ### Charging
 * Every cell in the chip will ask the same amount of current supply at some time or their will be a ground bumb.So have many VCC/VDD and GND that will be vary near the cells
@@ -651,7 +653,7 @@ seperate and use
 
   ![Screenshot 2024-03-27 155044](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/947b8059-7842-406a-9d6f-b13abc68327e)
 
-
+                                                                                                                                                                     -VSD-IAT
 
  ### Implementation
  * we have 2 sets of circuit of some. It haas FF1,FF21,2{gates},input1,clock1,output1
@@ -659,21 +661,21 @@ seperate and use
 
    <img width="410" alt="Screenshot 2024-03-27 153222" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c4f8b6e8-65a1-4f85-b06a-740e1d4a5fa3">
 
-
+                                                                                                                                                                     -VSD-IAT
 
 * another of same circuit it has FF1,FF2,1,2{gates} CLOCK1,CLOCK2,OUTPUT,INPUT
 * it will look like this
 
   <img width="409" alt="Screenshot 2024-03-27 153314" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1a887cff-bc5f-4242-b121-ab4d653c8167">
 
-
+                                                                                                                                                                    -VSD-IAT 
 
 * Then inplement it in the die
 * it wil look like this
 
   <img width="422" alt="Screenshot 2024-03-27 154519" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/3533dd39-bdfc-474d-8235-e9ec6737cbbf">
 
-
+                                                                                                                                                                    -VSD-IAT 
 
 ### No placement automatically 
 * to prevent auttomatic placement we put a layer around the die
@@ -681,7 +683,7 @@ seperate and use
 
   ![Screenshot 2024-03-27 155044](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ad3e3187-212b-43d4-879e-c538ad4b1992)
 
-
+                                                                                                                                                                    -VSD-IAT
 
 ## Plcement & routing
 * Bind netlist with physical cells
@@ -692,7 +694,7 @@ seperate and use
 
   ![Screenshot 2024-03-27 165133](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ebed39fd-1999-401b-a7d7-f44d6402f744)
 
-
+                                                                                                                                                                    -VSD-IAT
 
   There are 2 types of library
   
@@ -704,7 +706,7 @@ seperate and use
 
   <img width="578" alt="imp" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/482fe830-1e06-4d63-83c1-fd94ce77eb3f">
 
-
+                                                                                                                                                                    -VSD-IAT 
 
   as big size that less resistance
 
@@ -714,7 +716,7 @@ seperate and use
 
   <img width="602" alt="imp 1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/f9075784-9c83-460b-8839-d931fe950b14">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 * placing netist in floor plan
 * This is the stage where we as time's wire lengh and dcapacitance and based on that , insert repeaters
@@ -722,7 +724,7 @@ seperate and use
 
    ![Screenshot 2024-03-27 175259](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/84ba0444-2dc8-4274-9e8a-bf7d72141011)
 
-
+                                                                                                                                                                    -VSD-IAT 
 
 ## library characteration and modelling
 * can veeting the synthesis into ligel hardware is called logic synthesis and the RTL
@@ -753,7 +755,7 @@ seperate and use
 
   <img width="209" alt="imp2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/11ff4d5a-112d-4c71-b062-a061730439d8">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 ## Characterization
 * read in the models
@@ -777,48 +779,49 @@ seperate and use
 
   <img width="233" alt="mp 4" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7cf1e8cc-e3f5-4459-a74b-5239c0973f14">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 * clculation
 
   <img width="444" alt="p1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bc49cda9-1acc-42b1-be0b-a798637b0c1c">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="446" alt="p2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/b58fcfd9-8b9f-454c-9d81-313ae03f06a1">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="463" alt="p3" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/729573a4-a16a-4261-bf60-375c69e55cd0">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="442" alt="p4" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/55fd137c-d2f1-4185-9333-8d68b37242fb">
 
-
+                                                                                                                                                                     -VSD-IAT
 
 <img width="425" alt="p5" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9409a984-70d7-451a-bdf3-f8726fe13fdc">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="446" alt="p6" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/54266327-4964-44ed-94c2-cdb71a6a8854">
 
-
+                                                                                                                                                                             
+                                                                                                                                                                    -VSD-IAT
 
 <img width="464" alt="p7" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/2d3faba8-9cbc-4d07-bd68-90d785af375a">
 
-
+                                                                                                                                                                   -VSD-IAT
 
 <img width="451" alt="p8" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e0267e8c-69b4-4117-8f41-a907b7aa058a">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 ## Propogation delay
 * Equation 
 
 <img width="401" alt="e1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/3b5f8be5-327b-4447-9984-e5c5ca049626">
 
-
+                                                                                                                                                                   -VSD-IAT
 
 * If it is 50%
 
@@ -826,13 +829,13 @@ seperate and use
 
   <img width="523" alt="s1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/0ccfe961-edfe-4fce-b14c-a72979162e41">
 
-
+                                                                                                                                                                    -VSD-IAT 
 
 eg - 2
 
 <img width="535" alt="s2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/2b4503ff-7cb0-47e3-9dc7-0880ecff3be2">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 ## Timing characterzation
 * Transition time
@@ -840,7 +843,12 @@ eg - 2
   Eqation
 
   <img width="425" alt="e2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bbed33ea-97b6-407a-942c-1cad06789bad">
-
-
+ 
+                                                                                                                                                                   -VSD-IAT
 
 If its 20% and others 80% 
+
+## pictures while doing labs :-
+
+![Screenshot 2024-03-27 161615](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/2acf978b-4094-41ad-8189-ccb91d29dcbf)
+
