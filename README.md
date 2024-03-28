@@ -870,3 +870,44 @@ If its 20% and others 80%
 ![Screenshot 2024-03-27 161732](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/02509500-217f-4765-8745-9e9212d5e10f)
 
                                                                                                                                                                   -All by me
+
+
+## Day 3 
+## VTC - SPICE simulation 
+* Spice Deck
+  
+  component connectivity {netlist}
+
+* PMOS :-
+
+  ![Screenshot 2024-03-28 164130](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/f41867c6-91d2-4958-947e-f43272acdcbc)
+
+
+
+* NMOS :-
+
+  ![Screenshot 2024-03-28 164136](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/f0c88b9f-d0bf-4030-a39b-01c6ac133db7)
+
+
+
+* Component value
+
+  Like :-
+
+  ![Screenshot 2024-03-28 164450](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/81b3bebb-b7b5-46b2-bd4d-1026268cd5ab)
+
+* Identify nodes
+
+  nodes :- a gate in between two objects.The object is the node.
+
+  ![Screenshot 2024-03-28 164645](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a9c9c4aa-1795-44bb-8097-d90896ae581b)
+
+
+
+* name the nodes
+
+  ![Screenshot 2024-03-28 165024](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/48f57bd1-2d6a-489f-9b92-d0233479ec21)
+
+
+
+* *** hj kiu u3t ***
