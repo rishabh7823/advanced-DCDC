@@ -1352,6 +1352,20 @@ In the last this is the gate we get
 
  
 
+## Open source EDA tool development
+* Lab exercise : Magic DRC
+
+  indepth overview of Magic's DRC engine
+
+  Introduction to google/sky water DRC rules
+
+  Lab: Warmup experience: Fix a simple rule error
+
+  Lab: Main exercise: fix or create a complex magic tech
+
+  to find these all we can search for websites- like open circuit and etc.
+
+  ## Labs pictures
 
   
 
