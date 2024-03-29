@@ -1192,4 +1192,166 @@ In the last this is the gate we get
 
 ![Screenshot 2024-03-28 211615](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/85209953-9143-439d-84c5-8674a226fcfe)
 
+
+
+* mask-16 process
+
+  etch thin oxide in HF solution
+
+  <img width="400" alt="m" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/b7e5a5c5-a23f-4456-90f9-d2dbe87e596f">
+
+
+
+  deposit titanium on water surface,using sputtering
+
+  sputtering means we have to take titanium metal and hit it with Argon gas
+
+  for this the particles of titanium metal will be spited out and deposited on the substrate.
+
+  after depositing the titanium metal
+
+  <img width="408" alt="m1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6177968f-7577-4c1d-b04c-c5cd2ace3244">
+
+
+
+  then we have to heat it and the resultant we get is titanium silicon
+
+  <img width="507" alt="m2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/f36ffcff-9288-4292-bb84-71a3c8efefe6">
+
+
+
+  To bring the gates out we have to again do the same process with mask-11
+
+  <img width="410" alt="m3" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/50da90e6-42d1-48c7-b392-048b07287425">
+
+
+
+   then the titanium is removed by RCA cleaning
+
+   RCA cleaning --- A solution with
+
+                    De-ionized water(H2O),5parts
+
+                    Ammonium hydroxide(NH4OH),1part
+
+                    Hydrogen Peroxide(H2O2),1part
+
+  in the last, the local interconnects are :-
+
+  <img width="387" alt="m4" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ca669211-e472-41dd-9b78-b4f1a81f9acb">
+
+
+
+* High Level metal formation
+
+  First we have to put a thick SiO2 layer
+
+  <img width="485" alt="m5" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6e7a3bef-940b-4998-af54-c9752417f477">
+
+
+
+  polish this
+
+  <img width="494" alt="m6" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ab198fdb-7b3e-40b7-9068-3a3680203eaa">
+
+
+
+  For contact rules again we have to do a small process
+
+  <img width="386" alt="m7" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/d7337afd-f74d-4099-a9ef-8c56467136cc">
+
+
+
+  then remove the photo resist
+
+  <img width="389" alt="m8" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/60fdcdb9-81f6-45cf-bb9f-8d9aae87d583">
+
+
+
+  then put a titanium metal
+
+  <img width="441" alt="m9" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/99fa22fc-f457-4515-94db-765eec46ff3e">
+
+
+
+  then deposit a blanket tungston
+
+  <img width="494" alt="m10" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/56a427f0-49ab-46c7-9a43-78125659d767">
+
+
+
+  now again polish it
+
+  <img width="396" alt="m11" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/80db741a-54d3-44a1-be5b-d297e5ce8b27">
+
+
+
+  now deposit a Aluminium metal
+
+  <img width="495" alt="m12" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6f5a054f-c5c6-4fd1-8ce4-3de2940155b3">
+
+
+
+  then use mask13
+
+  <img width="431" alt="m13" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/dec5cd23-c7f7-4e19-a866-b3254a88e9b9">
+
+
+
+  do plasma etching
+
+  <img width="431" alt="m14" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/dc07a0a9-cbcb-4fd0-a797-65fd100cd6e4">
+
+
+
+  then again put SiO2
+
+  <img width="482" alt="m15" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9ca11273-129f-40a4-afa6-e6a186b97714">
+
+
+
+  use Mask14 to define holes
+
+  <img width="490" alt="m16" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/47a320fb-2c7e-4455-801d-219d46d67b7f">
+
+
+
+  deposit Tin
+
+  <img width="491" alt="m17" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c46ffe58-3a6a-49ec-a694-f8b2a8889e8f">
+
+
+
+  deposit W
+
+  <img width="478" alt="m18" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/54f352ea-e630-4832-8ff0-b7c407dc6d02">
+
+
+
+  use Mask 15 to define the pattern
+
+  <img width="452" alt="m19" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/0e81b75e-5716-422c-ba44-055c2b17acb7">
+
+
+
+  then deposit a layer of Si3N4
+
+  <img width="400" alt="m20" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/04976393-8e53-45fb-9757-467386fd6c3d">
+
+
+
+  Use Mask 16 to open contact holes
+
+  <img width="381" alt="m21" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/8e9ebd1d-8b26-4142-a439-28d3967a8506">
+
+
+
+  Fabricate/end of Mask-16
+
+  <img width="387" alt="m22" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c6ca3f44-d770-45f3-910c-d04317b81017">
+
+ 
+
+
   
+
