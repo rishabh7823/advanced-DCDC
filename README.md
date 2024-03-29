@@ -1705,7 +1705,78 @@ In the last this is the gate we get
 ## Hold timing Analysis
 * Hold Analysis
  
-    here we send the single signal to both launch and capture Flop
+  here we send the single signal to both launch and capture Flop
+
+  <img width="478" alt="q28" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/4fbe16a0-fd1e-468d-877c-4d190a33c97f">
+
+
+
+  internal delay is hold time
+
+  ⊖+1+2>H+1+3+4
+
+  ⊖+Δ1>H+Δ2+HU
+
+  identifying
+
+  <img width="403" alt="q30" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a1f7b149-e032-4e37-be0c-63571f27a5f0">
+
+
+
+  <img width="85" alt="q29" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/166a290a-c4bc-4605-a74c-04d80726a872">
+
+
+
+  Δ1 = Real wire RC delay1
+
+       + Buf delay
+
+       + Real wire RC delay2
+
+       + Buf delay
+
+       + Real wire RC delay3
+
+       + Buf delay
+
+       + Real wire RC delay4
+
+       + Buf delay
+
+       + Real wire RC delay5
+
+       + Buf delay
+
+   Δ2 = Real wire RC delay1
+
+       + Buf delay
+
+       + Real wire RC delay2
+
+       + Buf delay
+
+       + Real wire RC delay3
+
+       + Buf delay
+
+       + Real wire RC delay4
+
+       + Buf delay
+
+       + Real wire RC delay5
+
+       + Buf delay
+
+
+
+  
+
+
+
+  
+
+  
+
 
     
 
