@@ -1000,7 +1000,7 @@ If its 20% and others 80%
 (Wp/Lp)/(Wn/Ln) = ________________________________
                    Kbl.Vdsatb(-Vm+Vdd+Vt)+VdsatB/2
 
-eg.1 rise and fall in waveform
+eg.1 rise and fall in waveform 
 
 ![Screenshot 2024-03-28 172902](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bbba624c-5be7-4c0a-ac9f-cff78f0fb41c)
 
