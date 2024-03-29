@@ -704,9 +704,9 @@ seperate and use
 
   it has many sizes
 
-  <img width="578" alt="imp" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/482fe830-1e06-4d63-83c1-fd94ce77eb3f">
+ ![Screenshot 2024-03-29 111849](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/14675585-e4ab-4803-9bdb-f168f5a4b28b)
 
-                                                                                                                                                                    -VSD-IAT 
+                                                                                                                                                                    VSD-IAT 
 
   as big size that less resistance
 
