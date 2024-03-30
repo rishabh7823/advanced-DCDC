@@ -1388,13 +1388,13 @@ called P-substrate
 
   <img width="135" alt="q" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ea395b13-0aff-4b74-9f27-381350138559">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-  Also we can use OR gate like this:
+*  Also we can use OR gate like this:
 
   <img width="111" alt="q1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/891d09ee-1f92-46b3-bfbb-0bc846042b19">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 * How it uses the clock drain
 
@@ -1402,100 +1402,100 @@ called P-substrate
 
   <img width="317" alt="q2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6e5e35fd-2906-4cdc-b80d-8c5640134211">
 
+                                                                                                                                                                    -VSD-IAT
 
+### Assumsion
 
-  Assumsion
+*  Let us assume C1=C2=C3=C4=25FF
 
-  Let us assume C1=C2=C3=C4=25FF
+*  Createa buffer tree at Node 'A'
 
-  Createa buffer tree at Node 'A'
+* Let us assume Cbuf1=Cbuf2=30FF
 
-  Let us assume Cbuf1=Cbuf2=30FF
+* total Cap at node"A' - 60FF
 
-  total Cap at node"A' - 60FF
+*  total cap at node'B' - 50FF
 
-  total cap at node'B' - 50FF
+*  total cap at node'C'-50FF
 
-  total cap at node'C'-50FF
+### Observations
 
-  Observations
+*  2 levels of buffering
 
-  2levels of buffering
+*  At every level, each node driving same load
 
-  At every level, each node driving same load
+*  identical buffer at same level
 
-  identical buffer at same level
+## but the delay was varying
 
-* the delay was varying
+*  for this the engineers found a table called daly table for CBUF'1'-Size1
 
-  for this the engineers found a table called daly table for CBUF'1'-Size1
-
-  it looked like this:
+*  it looked like this:
 
   <img width="272" alt="q3" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/5291448a-43e0-4861-8992-4b8cab3742a4">
 
+                                                                                                                                                                    -VSD-IAT
 
+### Lets do with a eg (CBOF'1')
 
-* Lets do with a eg (CBOF'1')
+*  lets think the input is 60ps
 
-  lets think the input is 60ps
+*  lets think the output is 70FF
 
-  lets think the output is 70FF
+*  then the delay will be 16x
 
-  then the delay will be 16x
+## Size of Delay tables
 
-* Size of Delay tables
-
-  Delay table size 'CBOF'1''
+*  Delay table size 'CBOF'1''
 
   <img width="272" alt="q3" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/2ce5cb8c-3831-4c78-ac9d-6234773ff2e4">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-  Delay table size 2'CBOF'2''
+*  Delay table size 2'CBOF'2''
 
   <img width="263" alt="q4" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/b8de881e-d05d-415b-98b0-b06a383b86cb">
 
+                                                                                                                                                                    -VSD-IAT
 
+### Lets do with eg-1
 
-* Lets do with eg-1
+*  assume the input is 40ps 'size1'
 
-  assume the input is 40ps 'size1'
+*  assume the output is 60FF 'size1'
 
-  assume the output is 60FF 'size1'
-
-  the delay will be x9.5 'size1'
+*  the delay will be x9.5 'size1'
 
   <img width="222" alt="q5" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9c395938-a1ff-4974-a674-c99e60d65636">
 
+                                                                                                                                                                    -VSD-IAT
 
+*  assume the input is 60ps 'size2'
 
-  assume the input is 60ps 'size2'
+*  assume the output is 50FF 'size2'
 
-  assume the output is 50FF 'size2'
-
-  the delay will be y15'size2'
+*  the delay will be y15'size2'
 
   <img width="229" alt="q6" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6b9bdadc-92a3-459d-b90c-63f269c7bd7e">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-  the last 2 dont have any skew'O'
+ * the last 2 dont have any skew'O'
 
   <img width="235" alt="q7" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/dd989f48-c265-4868-89ba-01d5ac2c13fd">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-  these two are not active
+*  these two are not active
 
   <img width="278" alt="q8" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/d52e06a7-3aa9-4a3b-9cd9-23b49cb9eeb0">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 ## Setup Timing Analysis
-* Timing Analysis
+### Timing Analysis
 
-  Specifications
+*  Specifications
 
   Clock frequency(F) = 1GHz
 
@@ -1505,45 +1505,45 @@ called P-substrate
 
                   = 1ns
 
-  the full circuit:
+ * the full circuit:
 
   <img width="500" alt="q9" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/78afb444-d4cb-49a3-8879-6c9d51645c01">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 * inside capture Flab
 
   <img width="794" alt="q10" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e6493235-a76f-4db1-bbec-84737135b81a">
 
+                                                                                                                                                                    -VSD-IAT
 
+*  Hence finite time'S' required for 'D'to reach Qm
 
-  Hence finite time'S' required for 'D'to reach Qm
-
-  ⊖<T but now Q<(T-S)
+*  ⊖<T but now Q<(T-S)
 
   <img width="509" alt="q11" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/4656775b-f9ae-4272-b23d-61034bdf2d47">
 
+                                                                                                                                                                    -VSD-IAT
 
+### litter
 
-* litter
+*  window within which clock edge can arrive on real chip
 
-  window within which clock edge can arrive on real chip
-
-  Temporary variation of clock period
+*  Temporary variation of clock period
 
   <img width="541" alt="q12" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/acfa2ded-6498-4ee3-b682-67cf895c507d">
 
+                                                                                                                                                          
 
-
-  now it is in the single box
+ * now it is in the single box
 
   <img width="488" alt="q13" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/43900ef1-d717-4ddc-a6a6-9651da2f1f8d">
 
+                                                                                                                                                                   
 
+*   ⊖<(T-S) but now ⊖<(T-S-Su)
 
-   ⊖<(T-S) but now ⊖<(T-S-Su)
-
-* Now lets find the time delay from our old design
+### Now lets find the time delay from our old design
 
   <img width="284" alt="q14" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1efd2295-25f0-45ba-aaa1-1a79850cccec">
 
