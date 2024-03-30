@@ -2,9 +2,14 @@
 ## Day 1 
 ## processor/chip 
 <img width="406" alt="Screenshot 2024-03-23 121603" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/939d9f5e-9961-4974-8d35-13003d2ce4b7">
+
+                                                                                                                                                                  -VSD-IAT 
+                                                                                                                                                                  
+                                                                                                                                                                  
+                                                                                                                                                                  
 “<img width="139" alt="Screenshot 2024-03-23 130930" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7fe8b449-5225-49c2-9f75-27b6a92284fe">
 
-                                                                                                                                                                    -VSD-IAT 
+                                                                                                                                                                  -VSD-IAT 
 
 
 1-This is how the processor looks like
@@ -12,7 +17,7 @@
 
 <img width="434" alt="Screenshot 2024-03-23 133754" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/fa7375cb-275e-4b8d-b9c8-5c657fe1a509">
 
-                                                                                                                                                                     -VSD-IAT
+                                                                                                                                                                    -VSD-IAT
 
 
 2-this is the board diagram of the proseccor
