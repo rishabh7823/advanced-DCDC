@@ -432,7 +432,7 @@ lets get started with this 👆
 
   
 
-<img width="950" alt="Screenshot 2024-03-26 151959" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/d433d415-5bdb-4aab-ad35-782c29037f0d">
+
 
                                                                                                                                                                   -all by me
 
