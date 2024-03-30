@@ -1,4 +1,4 @@
-<img width="602" alt="kk" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6361ba7a-3972-4755-9257-1887f4742d6e"># advanced-DCDC
+# advanced-DCDC
 ## Day 1 
 ## processor/chip 
 <img width="406" alt="Screenshot 2024-03-23 121603" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/939d9f5e-9961-4974-8d35-13003d2ce4b7">
