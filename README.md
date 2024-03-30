@@ -20,6 +20,7 @@
                                                                                                                                                                     -VSD-IAT
 
 
+
 2-this is the board diagram of the proseccor
  
 ### The details of the parts and the functioning of parts  
@@ -33,7 +34,7 @@ The chip is present at the middle and to connect the chip we  use something call
 
 1-*PADS* 
 
-PADS is somthing from which you can send the signals inside the chip 
+PADS is something from which you can send the signals inside the chip 
 
 2-*CORE* 
 
@@ -44,9 +45,9 @@ CORE is something where all our digital logic are placed
 DIE is the size of the chip which is manufactured on the silicon 
 
 
-### **Woking inside the chip**
+### **Working inside the chip**
 
-1.The tipical chip/core consist of RISCV SoC,SRAM,PILL,adc,adc1,dac,SPI
+1.The typical chip/core consist of RISCV SoC,SRAM,PILL,adc,adc1,dac,SPI
 
 2.The SRAM ,PILL,adc,adc1,dac are called as foundry IP's
 
@@ -57,9 +58,9 @@ DIE is the size of the chip which is manufactured on the silicon
 
 1.example of Foundry IP's is Rath 150
 
-2.Foundry is basically a set of machines/a big factery and we communicate with the factery as a VLSI engineer.
+2.Foundry is basically a set of machines/a big factory and we communicate with the factory as a VLSI engineer.
 
-3.IP is bassically called intelligent property it means it needs some extra intelligens to build this.
+3.IP is bassically called intelligent property which means it needs some extra intelligence to build this.
 
 
 ### **Macros**
@@ -67,8 +68,8 @@ DIE is the size of the chip which is manufactured on the silicon
 1.Macros are digital logic and needs IP's 
 
 ### RISC-V Instruction Set Architecture {ISA}
-* If we want to transfer a C code to a computer/hardwar.Its first made to a assembly language program/RISC-V assembly language and to machine language program/binary program language then its passed to the layot.
-* we have to implement RISC-V specification to some RTC and then to the layot.
+* If we want to transfer a C code to a computer/hardware.Its first made to a assembly language program/RISC-V assembly language and then to machine language program/binary program language then its passed to the layout.
+* we have to implement RISC-V specification to some RTC and then to the layout.
 
 ### lets go more deep 
 * The apps enter our computer in this way :-
@@ -83,7 +84,7 @@ APPS -> System Software -> Hardware/chip
   **Major work**-
   * Converts the app into the assembly program
     
-    **Miner work** -
+    **Minor work** -
     * low level system function
     * handle IO operations
     * Alocate memory
@@ -96,11 +97,11 @@ APPS -> System Software -> Hardware/chip
 * It converts the instructions into the binary language.
 
 ### Abstract interface 
-* The instruction s act act like the abstract interface between the language and the hardware.
-* its also called as Instruction Set Architecture or Architecture of computer
+* The instructions act act like the abstract interface between the language and the hardware.
+* It is also called as Instruction Set Architecture or Architecture of computer
 
 ### Understanding of hardware
-* The binary is sent to a RTL which will convert the binary into gate level undertanding
+* The binary is sent to a RTL which will convert the binary into gate level understanding
 * It is passed to the hardware and then gets done by the chip
 
 ### SoC Design Using Openlane
@@ -132,21 +133,21 @@ The properties needed for ASIC :-
 * PDK = Processer Designing Kit
 
 ### How it works 
-* Collection of files used to madel the EDA
+* Collection of files used to make the EDA
 * Process design rules:DRC,LVS,PEX
 * Device models
 * Digital stantard cell libraries
 * I/O libaries
 
 ### Formation of PDK
-* Google singed a agreement with skywater to make a PDK of 13nm and it was lounched at june 30 2020 and was the first ever open source PDK.
+* Google singed a agreement with skywater to make a PDK of 13nm and it was lounched on june 30 2020 and was the first ever open source PDK.
 
 ### is 130nm old ?
 *you could get the answer by this pie chart*
 
 <img width="438" alt="Screenshot 2024-03-24 125836" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e4f99bfd-4432-433c-b490-b306a950f578">
 
-                                                                                                                                                                     -VSD-IAT
+                                                                                                                                                                    -VSD-IAT
 
 ### Is 130nm fast?
 * Intel:P4EE @ 3.46GHz{Q4'O4}
@@ -162,7 +163,7 @@ The properties needed for ASIC :-
 
                                                                                                                                                                     -VSD-IAT
 ### Synth 
-* Converts RTL to a circuit out of components from the stanserd cell library {SCL} 
+* Converts RTL to a circuit out of components from the standard cell library {SCL} 
 * Basically it converts the RTL into gate levels netes
 * 'Standard cells' have regular layouts
 * Each has different views
@@ -172,13 +173,13 @@ The properties needed for ASIC :-
 ### FP+PP
 * It bassically means floring the chip
 * Chip floor - planning : partition the chip die between different system building blacks and place the I/O pads
-* Macro floor planning : we difine Dimensions,Pin location,raws definition
-* Power planning : The chip is pawered by VCC,VDD and they are conected to each other . they us uper metal layers hence have less resistance
+* Macro floor planning : we difine Dimensions,Pin location,raw definition
+* Power planning : The chip is powered by VCC,VDD and they are connected to each other.they use upper metal layers hence have less resistance
 
 ### Place 
 * Place the cells on the floor plan rows,aligned with the sites are placed near to each other to low the resistance
 * usually done in 2 steps : Global,Detailed
-* Glogal teris to find optinal positions for all cells and the cells could overlap
+* Global terris to find optinal positions for all cells and the cells could overlap
 * Detailed are mininally alterd and the cells does not overlap
 
 ### Clock tree synthesis
@@ -189,11 +190,11 @@ The properties needed for ASIC :-
 * usually a tree
 
 ### Routing
-* Implement the intarconnect using the available metal layer
-* The first one is made by titium and other are aluminium
+* Implement the interconnect using the available metal layer
+* The first one is made by titanium and other are aluminium
 * metal tracks form a routing grid
 * Routing grid is huge
-* Divid and conque
+* Divide and conquer
 * Global Routing : Generates routing guides
 * Detailed Routing : Uses the routing guides to implement the actual wiring
 
@@ -215,15 +216,22 @@ The properties needed for ASIC :-
 
   Opens PDK ,open ED,open RTL 
 * It has several families and benefits like :-
+  
   sTriVe:SKy 130SCL+Synthesized 1Kbytes SRAM
+  
   sTriVe2:SKy 130SCL+1Kbytes open RAM block
+  
   sTriVe2a:sTriVe 2 with a single chip core module
+  
   sTriVe 3: OSU SCL+Synthesized 1Kbytes SRAM
+  
   sTriVe5SKY130SCL+8x1Kbytes open RAM banks
+  
   sTriVe6:sTriVe2 with DFT
 
 ### OpenLane ASIC flow 
-* Maain Goul: Produce a clean GDSIL with no human interaction
+* Maain Goal: Produce a clean GDSIL with no human interaction
+  
   clean : No LVS violation
   
   
@@ -247,11 +255,11 @@ The properties needed for ASIC :-
   
   Autonomous:figure out the flow
   
-  Interactive:xan operate commands and steps one on one
+  Interactive:can operate commands and steps one on one
 
 * Design space exploration
-  Find the best set of flow configuration
-  used to find sets block of figurations
+  
+  Find the best set of flow configurations used to find sets block of figurations
   
   large number of design example
   
@@ -262,9 +270,9 @@ The properties needed for ASIC :-
  <img width="590" alt="Screenshot 2024-03-26 090801" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/0fea7ae3-2e5c-4fe9-86df-4932b1525d6a">
 
                                                                                                                                                                     -VSD-IAT
-Openlane is based on several open sorsues 
+Openlane is based on several open sources 
 
-open soursues like : OpenROAD,Yosys,ABC,Fault 
+open sources like : OpenROAD,Yosys,ABC,Fault 
 
 <img width="94" alt="Screenshot 2024-03-26 091409" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ac2d334c-883e-4c64-8f3f-a9769598c8b5">
                                                                                                                                                                      
@@ -284,9 +292,9 @@ lets get started with this 👆
   
   Scan Insertion
   
-  Actomatic test pattern Generation{ATPG}
+  Automatic test pattern Generation{ATPG}
   
-  Faut coverge
+  Fault coverge
   
   Fault Simulation
   
@@ -333,11 +341,12 @@ lets get started with this 👆
  
   when a metal wire segment is fabricated it can act as an antenna
 
-  reactive ion etchin causes chare to accumalate on the wire
+  reactive ion etching causes chare to accumalate on the wire
 
   transister gates can be damagged during fabrication
 
   this is done in 2 steps :-
+  
   1-Bridging attaches a higher layer intermadiary
   
    -require router awarness
@@ -457,19 +466,18 @@ lets get started with this 👆
 
   While defining the dimentions we are mostly dependent on the logic gates,also dimentions of OR and AND gate
 
-  Lets give the gates a perfect lenth and convert it into a physical dimensical
-
+  Lets give the gates a perfect length and convert it into a physical dimension
+                       
   converted netlist look like :-
   
   
   ![Screenshot 2024-03-27 232637](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/135a7903-2912-4118-a02d-16065aab5aa9)
 
-                                                                                                                                                                     -VSD-IAT
-
+                                                                                                                                                                    -VSD-IAT
 
   * Final calculation
  
-    Lets give a perfect/perticular lenth,width for both
+    Lets give a perfect/perticular length,width for both
 
     It would look like this:-
 
@@ -490,7 +498,7 @@ lets get started with this 👆
 
 * first waht is 'core' and 'die' ?
   
-  In the section of die we can find the core. core where the logic gates are present. die is a semiconductor metirial where the circuits are present. The circuit will not exid the die.
+  In the section of die we can find the core where the logic gates are present. die is a semiconductor material where the circuits are present. The circuit will not exceed the die.
   
 * How to arrive on its dimensions ?
   
@@ -510,7 +518,7 @@ lets get started with this 👆
 
   ![Screenshot 2024-03-27 133021](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c1b3b91a-396f-45e3-8848-6f1a5a1cfed9)
 
-                                                                                                                                                                     -VSD-IAT
+                                                                                                                                                                   -VSD-IAT
   
 Area of the core :-
 
@@ -570,7 +578,7 @@ aspect ratio =0.5
  ## Define locations of preplaced cells
  * What is preplaced cells
  
-   Whenever we want to take a part os gates/circuit away from a bigb circuit and place it in a different circuit the part of circuit taken out is known as pre placed cells.
+   Whenever we want to take a part of gates/circuit away from a big circuit and place it in a different circuit the part of circuit taken out is known as pre placed cells.
 
 * actually this work like this
 
@@ -585,7 +593,7 @@ aspect ratio =0.5
  ![Screenshot 2024-03-27 140424](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/68be39c8-15b9-4560-8e32-65b103940088)
  
                                                                                                                                                                   -VSD-IAT                                                                                                                                                                   
- seprate it 
+ separate it 
 
 
  Extand I/O pins 
@@ -620,16 +628,16 @@ seperate and use
 
                                                                                                                                                                     -VSD-IAT
 
-* These are pre placed cells because they are placed only ones
+* These are pre placed cells because they are placed only once
 * The arrangment of these chip is called floor planning
 * these IP's have user-defined locations and hence are placed before automated placement and routing are called pre placed cells
-* Automated placement and routing tools places the remaining logical cells in the design onto chip
+* Automated placement and routing tools places the remaining logical cells in the design on to chip
 
 
 ## Locations of pre placed cells 
 ### Siding 
-* chip will be having to side I/O
-* If we got to know the cells should be connected by VCC/VDD.Its placed at 1 side
+* chip will be having two side I/O
+* If we get to know the cells should be connected by VCC/VDD.Its placed at 1 side
 * Like this
 
   ![Screenshot 2024-03-27 142149](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7d1e2e61-6dbd-4f8b-9e05-bd5df618971a)
@@ -637,14 +645,14 @@ seperate and use
                                                                                                                                                                    -VSD-IAT
 
 ### Decapers 
-* Some times if the circuits are for the resistance could be high
+* Some times if the circuits are for the resistance it could be high
 * This picture shows the danger of high resistance:-
 
   ![Screenshot 2024-03-27 143136](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6a0e0288-878e-4154-8b2f-9aaeb2b80773)
 
                                                                                                                                                                    -VSD-IAT
                                                                                                                                                
-* to reduse the resistance we use Decapers
+* to reduce the resistance we use Decapers
 * the decapers are also present in power planning
 * like this :-
 
@@ -668,7 +676,7 @@ seperate and use
 
                                                                                                                                                                    -VSD-IAT
 
-* another of same circuit it has FF1,FF2,1,2{gates} CLOCK1,CLOCK2,OUTPUT,INPUT
+* another pair of same circuit it has FF1,FF2,1,2{gates} CLOCK1,CLOCK2,OUTPUT,INPUT
 * it will look like this
 
   <img width="409" alt="Screenshot 2024-03-27 153314" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1a887cff-bc5f-4242-b121-ab4d653c8167">
@@ -690,12 +698,12 @@ seperate and use
 
                                                                                                                                                                     -VSD-IAT
 
-## Plcement & routing
+## Placement & routing
 * Bind netlist with physical cells
   
   The all gates are in sqare shape only
   
-  where we can find all cells near thats the is liberary
+  where we can find all cells near that is the library
 
   ![Screenshot 2024-03-27 165133](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ebed39fd-1999-401b-a7d7-f44d6402f744)
 
@@ -711,20 +719,20 @@ seperate and use
 
  ![Screenshot 2024-03-29 111849](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/14675585-e4ab-4803-9bdb-f168f5a4b28b)
 
-                                                                                                                                                                    VSD-IAT 
+                                                                                                                                                                  -VSD-IAT 
 
-  as big size that less resistance
+  as big the size that much less resistance
 
 
-### Plcement 
+### Placement 
 * placing all three together:
 
   <img width="602" alt="imp 1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/f9075784-9c83-460b-8839-d931fe950b14">
 
                                                                                                                                                                     -VSD-IAT
 
-* placing netist in floor plan
-* This is the stage where we as time's wire lengh and dcapacitance and based on that , insert repeaters
+* placing netlist in floor plan
+* This is the stage where we have time's wire lengh and dcapacitance and based on that,insert repeaters
 * like thiss:
 
    ![Screenshot 2024-03-27 175259](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/84ba0444-2dc8-4274-9e8a-bf7d72141011)
@@ -732,10 +740,10 @@ seperate and use
                                                                                                                                                                    -VSD-IAT 
 
 ## library characteration and modelling
-* can veeting the synthesis into ligel hardware is called logic synthesis and the RTL
-* we import the logic synthesis output in and dicide the L/W of core and die which dependent on the gate
-* the floor plannning's things are passed to placement where the timing is taked care of
-* then to CTS where the 'clock reches all signals at same time 'is taken care
+* veeting the synthesis into ligel hardware is called logic synthesis and the RTL
+* we import the logic synthesis output in and dicide the L/W of core and die which is dependent on the gate
+* the floor plannning's things are passed to placement where the timing is taken care of
+* then to CTS where the 'clock reaches all signals at same time 'is taken care
 * Routing is basicaly deparing
 * STA where the Arrival and etc are calculated 
 
@@ -765,18 +773,18 @@ seperate and use
 ## Characterization
 * read in the models
 * read extracted files
-* see the behavior of beffer
+* see the behavior of buffer
 * read the sub of inverter
-* atach pawer sorces
-* apley stimless
-* provide output capasitence
+* attach power sources
+* apply timeless
+* provide output capacitence
 * read tran simulation
 
   1 to 8 is called GUNA
   this will generate timing,noise,pawer,libs,function
   it is divided in three parts :-
    t1ming charactization
-   pawer charactization
+   power charactization
    noise charactization
 
 ## Timing charactization
@@ -786,7 +794,7 @@ seperate and use
 
                                                                                                                                                                     -VSD-IAT
 
-* clculation
+* calculation
 
   <img width="444" alt="p1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bc49cda9-1acc-42b1-be0b-a798637b0c1c">
 
@@ -845,7 +853,7 @@ eg - 2
 ## Timing characterzation
 * Transition time
 
-  Eqation
+  Equation
 
   <img width="425" alt="e2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/bbed33ea-97b6-407a-942c-1cad06789bad">
  
@@ -1867,7 +1875,7 @@ called P-substrate
 
 ### DRC Clean
 
-* Whenever we build a wire, there should be a min distance between other wires
+* Whenever we build a wire, there should be a minimum distance between other wires
 
 
 <img width="554" alt="r6" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a6747735-4835-4cd7-b0a5-5c057e00c841">
@@ -1878,13 +1886,13 @@ called P-substrate
 
 The wire width should be a particular size (X)
 
-The min pitch between two wires should be particular (X)
+The minmum pitch between two wires should be particular (X)
 
-The min placing between the two wires should be particular (X)
+The minmum placing between the two wires should be particular (X)
   
 * For example :
 
-We have this oicture as an example :
+We have this picture as an example :
 
 
 <img width="549" alt="r7" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6f86bc42-5631-4405-bf88-f0e2ab629267">
