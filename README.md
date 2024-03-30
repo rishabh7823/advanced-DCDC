@@ -1,4 +1,4 @@
-# advanced-DCDC
+<img width="602" alt="kk" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6361ba7a-3972-4755-9257-1887f4742d6e"># advanced-DCDC
 ## Day 1 
 ## processor/chip 
 <img width="406" alt="Screenshot 2024-03-23 121603" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/939d9f5e-9961-4974-8d35-13003d2ce4b7">
@@ -1978,7 +1978,7 @@ The third problem is that the space between the metal should be particular about
 
 <img width="365" alt="r14" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/d9b0123c-50d8-4518-a824-b7d60374a71d">
 
-                                                                                                                                                                   -VSD-IAT
+                                                                                                                                                                  -VSD-IAT                                                                                                                                                                
 
 * Access Point (AP) : An ongrid point on the metal layer of the route guide and is used to connect to lower-layer segment, upper layer segments , pino or 10 points
 
@@ -2003,12 +2003,20 @@ The third problem is that the space between the metal should be particular about
 
 * Return e(i.j) ∈ T
 
+## LAB pictures
 
+<img width="602" alt="kk" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e53ea9b1-2d72-4693-b206-b18d5f804003">
 
+                                                                                                                                                                  -VSD-IAT 
 
+<img width="412" alt="kk1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ee9187dc-45e4-4107-8014-af9a70a9d02e">
 
-
-
+                                                                                                                                                                   -VSD-IAT         
+                                                                                                                                                                   
+<img width="101" alt="kk2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/67c8bebf-8ac6-4213-b374-8bdd2bbb5713">
+                                                                                                                                                                   
+                                                                                                                                                                   -VSD-IAT 
+ 
 
 
 
