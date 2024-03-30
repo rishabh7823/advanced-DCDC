@@ -1533,13 +1533,13 @@ called P-substrate
 
   <img width="541" alt="q12" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/acfa2ded-6498-4ee3-b682-67cf895c507d">
 
-                                                                                                                                                          
+                                                                                                                                                                  -VSD-IAT                                                                                                                                                          
 
  * now it is in the single box
 
   <img width="488" alt="q13" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/43900ef1-d717-4ddc-a6a6-9651da2f1f8d">
 
-                                                                                                                                                                   
+                                                                                                                                                                  -VSD-IAT                                                                                                                                                                 
 
 *   ⊖<(T-S) but now ⊖<(T-S-Su)
 
@@ -1547,9 +1547,9 @@ called P-substrate
 
   <img width="284" alt="q14" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1efd2295-25f0-45ba-aaa1-1a79850cccec">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-  ⊖ = FF1(CLK-Q)
+*  ⊖ = FF1(CLK-Q)
 
   + wire delay estimate1
 
@@ -1563,30 +1563,30 @@ called P-substrate
  
   <img width="170" alt="q15" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e70da565-ef59-4d6a-baa8-15e2d25d9f9e">
   
+                                                                                                                                                                    -VSD-IAT
 
-
-  ⊖ = FF1(CLK-Q)
+*  ⊖ = FF1(CLK-Q)
 
   + delay of '1'
  
   + delay of '2'
  
-  delays
+*  delays
 
   ⊖<1ns-0.01ns-0.09ns
 
   <0.9ns
 
 
-* CTC problems
+### CTC problems
 
-  Let's put the wire in proper form in our old design
+ * Let's put the wire in proper form in our old design
 
   <img width="421" alt="q16" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1bcb6c11-5f8f-48a8-accc-247c5eb6a600">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-  Problem
+*  Problem
 
   the problem in Section1:
 
@@ -1594,138 +1594,138 @@ called P-substrate
 
   <img width="490" alt="q17" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/f9b71100-b80a-48b5-ba0d-fef064ccc4c8">
 
+                                                                                                                                                                    -VSD-IAT
 
+*  the time to reach FF1 is t1
 
-  the time to reach FF1 is t1
-
-  the time to reach FF2 is t2
+*  the time to reach FF2 is t2
 
   <img width="487" alt="q18" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a876979d-ba96-4579-aa36-f9bce6ba417e">
 
+                                                                                                                                                                    -VSD-IAT
 
+*  t2-t1=skew
 
-  t2-t1=skew
+*  skew should be ~'ops'
 
-  skew should be ~'ops'
-
-  the route will not give '~ops' and thats the problem
+*  the route will not give '~ops' and thats the problem
 
   <img width="605" alt="q19" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/3a9cbe66-136c-4730-a3df-e40726cb6361">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-  it should be like this
+ * it should be like this
 
   <img width="406" alt="q20" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9354c8a7-0817-4857-a39f-defe6c357b18">
 
+                                                                                                                                                                    -VSD-IAT
 
+*  This is a H-Tree
 
-  This is a H-Tree
-
-  in last we add Buffers(Buffering)
+*  in last we add Buffers(Buffering)
 
   <img width="407" alt="q21" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/fff9128d-3892-4c0b-9565-ec74047a1429">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-  Then Net shielding which will protect the wiring
+*  Then Net shielding which will protect the wiring
 
   <img width="401" alt="q22" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/48bd5427-9ece-4aa9-a574-6982203877af">
 
+                                                                                                                                                                    -VSD-IAT
 
+*  or else there would be glitch
 
-  or else there would be glitch
+###  What is glitch
 
-  What is glitch
-
-  When two circuits are near, from one circuit the vibration would pass to another circuit from which memory loss would happen.
+*  When two circuits are near, from one circuit the vibration would pass to another circuit from which memory loss would happen.
 
   <img width="312" alt="q23" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/67a0bcc3-f9c4-40ca-854c-ab23aa9c4f4e">
 
-
+                                                                                                                                                                    -VSD-IAT
 
                                                        👇👇👇
 
 
   <img width="305" alt="q24" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1ee067b8-b29a-4763-8800-3fea872c5aad">
 
+                                                                                                                                                                   -VSD-IAT
 
+### Lets now make it with real clock
 
-* Lets now make it with real clock
-
-  .-now this looks like this
+* now this looks like this
 
   <img width="483" alt="q25" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/fdae677e-dd02-4ac1-ba31-a0060b94515a">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-                                                       👇👇👇 ⊖
+                                                       👇👇👇 
 
 
 
   <img width="376" alt="q26" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1871e9ab-aae9-4bc4-b32b-1aada70498a3">
 
+                                                                                                                                                                    -VSD-IAT
 
+*  (⊖+1+2)<(T+1+3+4)
 
-  (⊖+1+2)<(T+1+3+4)
-
-  (⊖+Δ1)<(T+Δ2)-S-SU
+   (⊖+Δ1)<(T+Δ2)-S-SU
 
   <img width="367" alt="q27" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/4e9896c3-8629-4516-b84a-2a32d08b4125">
 
+                                                                                                                                                                    -VSD-IAT
 
+*  Δ1-Δ2=Skew
 
-  Δ1-Δ2=Skew
+### Assumptions
 
-  Assumptions
+*  with, I = 1ns
 
-  with, I = 1ns
-
-  assume, S = 10ps
+*  assume, S = 10ps
 
             = 0.01ns
 
-  uncertainty = 90ps
+*  uncertainty = 90ps
 
               = 0.0ns
 
   (⊖+Δ1)<(T+Δ2)-S-SU
 
-  (⊖+Δ1)= Data arrival time
+*  (⊖+Δ1)= Data arrival time
 
-  (T+Δ2)-S-SU= Data Required time
+*  (T+Δ2)-S-SU= Data Required time
 
-  if the answer is '-', it is -Slack and
+*  if the answer is '-', it is -Slack and
 
-  if it is '+', it is +Slack
+*  if it is '+', it is +Slack
 
 
 ## Hold timing Analysis
-* Hold Analysis
+### Hold Analysis
  
-  here we send the single signal to both launch and capture Flop
+*  here we send the single signal to both launch and capture Flop
 
   <img width="478" alt="q28" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/4fbe16a0-fd1e-468d-877c-4d190a33c97f">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-  internal delay is hold time
+*  internal delay is hold time
 
   ⊖+1+2>H+1+3+4
 
   ⊖+Δ1>H+Δ2+HU
 
-  identifying
+*  identifying
 
   <img width="403" alt="q30" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a1f7b149-e032-4e37-be0c-63571f27a5f0">
 
-
+                                                                                                                                                                    -VSD-IAT
 
   <img width="85" alt="q29" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/166a290a-c4bc-4605-a74c-04d80726a872">
 
+                                                                                                                                                                   -VSD-IAT
 
-
-  Δ1 = Real wire RC delay1
+*  Δ1 = Real wire RC delay1
 
        + Buf delay
 
@@ -1745,7 +1745,7 @@ called P-substrate
 
        + Buf delay
 
-   Δ2 = Real wire RC delay1
+*   Δ2 = Real wire RC delay1
 
        + Buf delay
 
@@ -1771,104 +1771,105 @@ called P-substrate
 
 <img width="209" alt="ll" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e6b796d4-5807-4295-b951-a978711248d5">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="115" alt="ll1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/8e87cfee-9e70-4dba-b491-a068f202ab12">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="153" alt="ll2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a0db6b65-48bc-428e-bed2-4a837a56953c">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="344" alt="ll3" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/8960ea13-7426-427b-b167-a306b4ec9373">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="220" alt="ll4" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/8fdcb020-8314-4791-a85d-c9816cf833c4">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="131" alt="ll5" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/093535cb-fd7b-4d9f-9931-748b08878e6b">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="236" alt="ll6" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/5d28039c-f12f-446e-a530-01050f7d7b0b">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="273" alt="ll7" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/fae1ee76-5e85-4b75-ac7c-3179e0871ce6">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 <img width="560" alt="ll8" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/abe810a4-49ad-4d5d-8691-b7570be4ccb0">
 
+                                                                                                                                                                    -VSD-IAT
 
 ## Day 5 
 ## ROUTE
-* Routing
+### Routing
 
-It means to route two things
+* It means to route two things
 
-* Maze routing
+### Maze routing
 
-  Lee's algorithm (Lee 1961).
+*  Lee's algorithm (Lee 1961).
 
-We need to route this
+* We need to route this
 
 
 <img width="347" alt="r" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/b5907a2d-2d94-4c5d-9d36-9efa6a10924f">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-Then create routing at back end
+* Then create routing at back end
 
 
 <img width="345" alt="r1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9d3eb900-a355-420c-9825-0f10b675104f">
 
-
+                                                                                                                                                                    -VSD-IAT
   
-Then create two points
+* Then create two points
 
 
 <img width="347" alt="r2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/180abe93-f0d4-4d6e-8af2-627c8aefcfaf">
 
+                                                                                                                                                                    -VSD-IAT
 
-
-Then it does the numbering to reach the target 
+* Then it does the numbering to reach the target 
 
 
 
  <img width="355" alt="r3" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/7860ef8f-9350-4600-a13f-d40079095796">
  
-
+                                                                                                                                                                    -VSD-IAT
  
-Then make the route 
+* Then make the route 
 
 
 
 <img width="350" alt="r4" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e409e68a-e2ef-45b9-9de8-b6511c2ccefc">
     
-
+                                                                                                                                                                    -VSD-IAT
   
-But it favours the least / single L 
+* But it favours the least / single L 
 
 
 
 <img width="361" alt="r5" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/d7f82fe2-5519-4264-a69f-9c0075d6765a">
 
-  
+                                                                                                                                                                   -VSD-IAT 
 
-* DRC Clean
+### DRC Clean
 
-Whenever we build a wire, there should be a min distance between other wires
+* Whenever we build a wire, there should be a min distance between other wires
 
 
 <img width="554" alt="r6" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a6747735-4835-4cd7-b0a5-5c057e00c841">
   
-
+                                                                                                                                                                    -VSD-IAT
   
-3 typical design rules for the above pair of wires will be:
+* 3 typical design rules for the above pair of wires will be:
 
 The wire width should be a particular size (X)
 
@@ -1876,16 +1877,16 @@ The min pitch between two wires should be particular (X)
 
 The min placing between the two wires should be particular (X)
   
-For example :
+* For example :
 
 We have this oicture as an example :
 
 
 <img width="549" alt="r7" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6f86bc42-5631-4405-bf88-f0e2ab629267">
 
-  
+                                                                                                                                                                  -VSD-IAT  
 
-DRC Violation type signal short (Problem) 
+* DRC Violation type signal short (Problem) 
 
 Assume the metal layer to be Mn 
 
@@ -1893,7 +1894,7 @@ There will be a shield called Mn + 1
 
 <img width="561" alt="r8" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1ff7518d-5bc9-4d1c-9f39-13e462caa815">
   
-
+                                                                                                                                                                    -VSD-IAT
 
 Now the problem is solved - there is no signal short
 
@@ -1902,105 +1903,105 @@ The second problem is that the metal should be connected to higher metal layer a
 
   <img width="572" alt="r9" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/b3aedb75-0d45-45f0-ae15-d59f73715c01">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 The third problem is that the space between the metal should be particular about size. This problem is called via spacing
 
 
 <img width="552" alt="r10" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/128d047e-4157-4936-8429-19524856ed03">
 
-
+                                                                                                                                                                   -VSD-IAT
 
 ## Routing using Tritan-Route
-* Types of routing
+### Types of routing
 
-  Routing = Fast Route
+*  Routing = Fast Route
 
-  Routing = Detailed Route
+*  Routing = Detailed Route
 
 
 <img width="529" alt="r11" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6f5ea2bb-f9f7-4b91-aff8-43c4852a3044">
 
+                                                                                                                                                                    -VSD-IAT
 
+### Steps to do and information, features
 
-* Steps to do and information, features
+*  Performs inital detailed route
 
-  Performs inital detailed route
+*  Honors the preprocessed route guides, attempts as much as possible to route within route guide
 
-  Honors the preprocessed route guides, attempts as much as possible to route within route guide
+*  Assumes the route guides for each net satisfies the inter-guide connectivity
 
-  Assumes the route guides for each net satisfies the inter-guide connectivity
+*  Works on preprocessed MILP-based panel routing scheme with intra-layer parallel and inter-layer sequential routing framework.
 
-  Works on preprocessed MILP-based panel routing scheme with intra-layer parallel and inter-layer sequential routing framework.
-
-* Pre-processed route guides
+### Pre-processed route guides
 
   <img width="420" alt="r12" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/848ebc3f-eb34-4151-8718-87f52ae7ade1">
 
+                                                                                                                                                                    -VSD-IAT
+
+* Requirements of pre-processed guides :
+
+* Should have unit width
+
+* Should be in the pre preferred direction
 
 
-Requirements of pre-processed guides :
+### Inter-guide connectivity
 
-Should have unit width
+* Two guides are connected if:
 
-Should be in the pre preferred direction
+* They are on the same metal layer touching the edges
 
+* They are on the neighbouring metal layers with a non-zero vertically overlapped area.
 
-* Inter-guide connectivity
-
-Two guides are connected if:
-
-They are on the same metal layer touching the edges
-
-They are on the neighbouring metal layers with a non-zero vertically overlapped area.
-
-Each unconnected terminal i.e. pin of a standard-cell instance should have its pin shape overlapped by a route guide 
+* Each unconnected terminal i.e. pin of a standard-cell instance should have its pin shape overlapped by a route guide 
 
 
-* Intro-layer parallel inter-layer sequential panel routing. 
+### Intro-layer parallel inter-layer sequential panel routing. 
 
 <img width="397" alt="r13" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c88d227b-a06c-4c57-832c-eacc816fe32d">
 
-
+                                                                                                                                                                    -VSD-IAT
 
 ## Tritan routing
-* Problem statement
+### Problem statement
 
-  Input : LEF, DEF, Preprocessed route guide
+*  Input : LEF, DEF, Preprocessed route guide
 
-  Output: Detailed routing solution with optimized wire length and via count
+*  Output: Detailed routing solution with optimized wire length and via count
 
-  Constraints: Route guide honoring, connectivity constraints and design routes.
+*  Constraints: Route guide honoring, connectivity constraints and design routes.
 
-* Handling connectivity
+### Handling connectivity
 
 
 <img width="365" alt="r14" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/d9b0123c-50d8-4518-a824-b7d60374a71d">
 
+                                                                                                                                                                   -VSD-IAT
 
+* Access Point (AP) : An ongrid point on the metal layer of the route guide and is used to connect to lower-layer segment, upper layer segments , pino or 10 points
 
- Access Point (AP) : An ongrid point on the metal layer of the route guide and is used to connect to lower-layer segment, upper layer segments , pino or 10 points
-
-Access Point Cluster (APC) : A union of all APS derived from the same lower-layer segment, upper-layer guide, a pin or a 10 point.
+* Access Point Cluster (APC) : A union of all APS derived from the same lower-layer segment, upper-layer guide, a pin or a 10 point.
 
 
 
 ## Routing topology algorithm
-* Algorithm 1.0 Optimization of routing topology
+### Algorithm 1.0 Optimization of routing topology
 
-For all i = 1 to n-1 do
+* For all i = 1 to n-1 do
 
-  For all j = i+1 to n do
+* For all j = i+1 to n do
 
-    cost(i.j) <- ( APC.i , APC.j)
+* cost(i.j) <- ( APC.i , APC.j)
 
-end for
+* end for
 
-end for
+* end for
 
-T <- MST(APC.s, COST.s)
+* T <- MST(APC.s, COST.s)
 
-Return e(i.j) ∈ T
+* Return e(i.j) ∈ T
 
 
 
