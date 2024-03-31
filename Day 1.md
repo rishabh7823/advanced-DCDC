@@ -425,7 +425,7 @@ lets get started with this 👆
 
 
 
-![Screenshot 2024-03-31 124408](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/3d8e8873-c7ec-4e13-b051-d420cf926229)
+
   ## pictures while doing the labs
 
 ![WhatsApp Image 2024-03-31 at 20 02 03_f78c0938](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c86f9658-49fd-466e-87ac-7340fb5ff127)
