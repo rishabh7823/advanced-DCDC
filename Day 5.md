@@ -211,4 +211,10 @@ The third problem is that the space between the metal should be particular about
  
 <img width="584" alt="-" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/462ea639-0cb2-4623-8dbb-bd88fa11938f">
 
+![WhatsApp Image 2024-03-31 at 21 25 26_3bba8154](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/df8e3ac0-78bb-471f-bcfc-4251c499fb1a)
+                                                                                                                                                                  
+![WhatsApp Image 2024-03-31 at 21 28 08_d3ba3c14](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/90b20c5c-fceb-4af4-a617-a5b319097305)
+
+![WhatsApp Image 2024-03-31 at 22 10 37_3234a329](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/11047a88-a9e8-4a6e-a863-db62545de113)
+
                                                                                                                                                                   -All by me
