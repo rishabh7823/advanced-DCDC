@@ -447,5 +447,24 @@ eg - 2
 
 ![Screenshot 2024-03-27 181027](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/756fac84-9b2e-4eeb-973a-cfd54655589a)
 
-                                                                                                                                                                  -All by me
+![Screenshot 2024-03-27 181027](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/756fac84-9b2e-4eeb-973a-cfd54655589a)
+
+
+<img width="311" alt="Screenshot 2024-03-26 102123" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ba2f3024-c01b-4cd2-bf45-6fc9d55f43c2">
+
+
+
+<img width="504" alt="Screenshot 2024-03-26 151720" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/fb2c8bdc-c1c3-4801-b65e-81610dc98b28">
+
+
+
+<img width="180" alt="Screenshot 2024-03-26 152245" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/4237569f-cfb8-4675-8366-9a6350373c54">
+
+![Screenshot 2024-03-27 161615](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9f90d9be-89c1-4154-9ec5-78fc87bde934)
+
+
+![Screenshot 2024-03-27 161631](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/a98531d5-eada-49b0-9430-bddf5761ea92)
+
+
+![Screenshot 2024-03-27 161732](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/02509500-217f-4765-8745-9e9212d5e10f)                                                                                                                                                                                                            -All by me
 
