@@ -430,6 +430,9 @@ lets get started with this 👆
 <img width="287" alt="Screenshot 2024-03-26 151732" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c75e7b8d-0864-484e-a545-5a86ad051f0b">
 
 
+
+![Screenshot 2024-03-31 124408](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/3d8e8873-c7ec-4e13-b051-d420cf926229)
+
   
 
 
@@ -2020,18 +2023,19 @@ The third problem is that the space between the metal should be particular about
 
 <img width="602" alt="kk" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/e53ea9b1-2d72-4693-b206-b18d5f804003">
 
-                                                                                                                                                                  -VSD-IAT 
+                                                                                                                                                                  
 
 <img width="412" alt="kk1" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/ee9187dc-45e4-4107-8014-af9a70a9d02e">
 
-                                                                                                                                                                   -VSD-IAT         
+                                                                                                                                                                           
                                                                                                                                                                    
 <img width="101" alt="kk2" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/67c8bebf-8ac6-4213-b374-8bdd2bbb5713">
                                                                                                                                                                    
-                                                                                                                                                                   -VSD-IAT 
+                                                                                                                                                                  
  
+<img width="584" alt="-" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/462ea639-0cb2-4623-8dbb-bd88fa11938f">
 
-
+                                                                                                                                                                  -All by me
 
 
 
