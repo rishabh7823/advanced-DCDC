@@ -420,10 +420,7 @@ eg - 2
  
                                                                                                                                                                    -VSD-IAT
 
-If its 20% and others 80% 
-
-## pictures while doing labs :-
-
+ it is 20% and others 80% 
 ![Screenshot 2024-03-27 181027](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/756fac84-9b2e-4eeb-973a-cfd54655589a)
 
 
@@ -444,7 +441,11 @@ If its 20% and others 80%
 
 
 ![Screenshot 2024-03-27 161732](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/02509500-217f-4765-8745-9e9212d5e10f)
+## pictures while doing labs :-
 
+<img width="209" alt="ll" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/0a12d648-fd83-4b0e-80ea-a227fe5bf469">
+
+![Screenshot 2024-03-27 181027](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/756fac84-9b2e-4eeb-973a-cfd54655589a)
 
                                                                                                                                                                   -All by me
 
