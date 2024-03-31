@@ -421,7 +421,7 @@ lets get started with this 👆
 
 
 
-<img width="180" alt="Screenshot 2024-03-26 152245" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/28e8d8a4-458d-4cee-aa4a-a003c690a80f">
+<img width="287" alt="Screenshot 2024-03-26 130232" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/08ce3914-ebf1-434f-bb45-d8212801d2c8">
 
 
 
