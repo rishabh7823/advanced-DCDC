@@ -412,28 +412,46 @@ lets get started with this 👆
   * cd ../ = undo
   * etc/many more
 
-  ## pictures while doing the labs
-
-
-<img width="287" alt="Screenshot 2024-03-26 130232" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/08ce3914-ebf1-434f-bb45-d8212801d2c8">
-
-
-
-<img width="287" alt="Screenshot 2024-03-26 130232" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/08ce3914-ebf1-434f-bb45-d8212801d2c8">
 
 
 
 
 
-<img width="287" alt="Screenshot 2024-03-26 151732" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c75e7b8d-0864-484e-a545-5a86ad051f0b">
+
+
+
+
+
 
 
 
 ![Screenshot 2024-03-31 124408](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/3d8e8873-c7ec-4e13-b051-d420cf926229)
+  ## pictures while doing the labs
 
-  
+![WhatsApp Image 2024-03-31 at 20 02 03_f78c0938](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c86f9658-49fd-466e-87ac-7340fb5ff127)
 
+![WhatsApp Image 2024-03-31 at 20 06 56_d65895c2](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/5f3e9993-a2b1-4e3a-96ef-9917b374aeb8)
 
+![WhatsApp Image 2024-03-31 at 20 14 18_5690324a](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/51a05a92-7d48-49a5-af9b-ac7ea4e0f594)
 
-                                                                                                                                                                  -all by me
+ ![WhatsApp Image 2024-03-31 at 20 16 58_8b39a2d5](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/6bc39b1f-730f-47d4-925d-ce12fe18a644)
+ 
+![WhatsApp Image 2024-03-31 at 20 19 00_0432a5cf](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/38414d89-b224-42c9-a562-6383d7960f4b)
 
+![WhatsApp Image 2024-03-31 at 20 21 47_d0080166](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/5b5b0cbb-0ec4-493d-8421-65bb57354c87)
+
+![WhatsApp Image 2024-03-31 at 20 41 09_7e5ed0c4](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/1ad4a653-630c-43b2-b687-226306dfdfe1)
+
+![WhatsApp Image 2024-03-31 at 20 43 23_d2437032](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/32c2c126-e55e-473f-a9ba-0a66102fddc0)
+                                                                                                                                                                 
+![WhatsApp Image 2024-03-31 at 20 49 11_1ae5497b](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/57e40e64-b541-46b4-8ab4-49e4bbe53855)
+
+![WhatsApp Image 2024-03-31 at 20 51 51_6379271f](https://github.com/rishabh7823/advanced-DCDC/assets/164547532/9ac17597-9b0d-4405-b4af-7935e514ddba)
+
+<img width="287" alt="Screenshot 2024-03-26 130232" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/08ce3914-ebf1-434f-bb45-d8212801d2c8">  
+
+<img width="287" alt="Screenshot 2024-03-26 130232" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/08ce3914-ebf1-434f-bb45-d8212801d2c8">
+
+<img width="287" alt="Screenshot 2024-03-26 151732" src="https://github.com/rishabh7823/advanced-DCDC/assets/164547532/c75e7b8d-0864-484e-a545-5a86ad051f0b">
+
+                                                                                                                                                                 -all by me
